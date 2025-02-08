@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canelles</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+  .labels {
+     color: white;
+     background-color: rgba(215, 44, 44, 0.8);
+     padding:10px;
+     font-size: 14px;
+     text-align: center; margin-left:120px;
+     background-image:url("vedado.png");
+	 background-repeat:no-repeat;
+	 background-position:10px center;
+	 text-indent:30px;
+    
+   }
+    </style>
+	<script>
+ 
+ 
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: 41.983747, lng:  0.619362},
+          zoom: 12,mapTypeId: 'satellite'
+
+        });
+
+	 
+		
+        var path = [ {lng:0.654169,lat:41.978643},{lng:0.654325,lat:41.978459},{lng:0.654507,lat:41.978252},{lng:0.654781,lat:41.978108},{lng:0.655108,lat:41.978104},{lng:0.655763,lat:41.978057},{lng:0.655864,lat:41.977993},{lng:0.656272,lat:41.977813},{lng:0.656497,lat:41.977777},{lng:0.656717,lat:41.977785},{lng:0.657404,lat:41.977945},{lng:0.657753,lat:41.977977},{lng:0.658112,lat:41.977965},{lng:0.658284,lat:41.977913},{lng:0.658504,lat:41.977877},{lng:0.658595,lat:41.977877},{lng:0.658531,lat:41.977965},{lng:0.658112,lat:41.978092},{lng:0.657946,lat:41.978108},{lng:0.657699,lat:41.978140},{lng:0.657511,lat:41.978116},{lng:0.657340,lat:41.978112},{lng:0.657248,lat:41.978132},{lng:0.657039,lat:41.978108},{lng:0.656803,lat:41.978065},{lng:0.656626,lat:41.978076},{lng:0.656390,lat:41.978112},{lng:0.656251,lat:41.978228},{lng:0.656036,lat:41.978356},{lng:0.655881,lat:41.978463},{lng:0.655468,lat:41.978539},{lng:0.655071,lat:41.978715},{lng:0.654824,lat:41.978850},{lng:0.654765,lat:41.978954},{lng:0.654582,lat:41.979022},{lng:0.654486,lat:41.979085},{lng:0.654239,lat:41.979173},{lng:0.654159,lat:41.978647}
+];
+     var path2 = [{lng:0.669174,lat:42.016281},{lng:0.668980,lat:42.016472},{lng:0.668852,lat:42.016600},{lng:0.668809,lat:42.016664},{lng:0.668744,lat:42.016744},{lng:0.668803,lat:42.016759},{lng:0.668879,lat:42.016779},{lng:0.668932,lat:42.016831},{lng:0.668943,lat:42.016903},{lng:0.669158,lat:42.016851},{lng:0.669367,lat:42.016847},{lng:0.669517,lat:42.016843},{lng:0.669587,lat:42.016915},{lng:0.669801,lat:42.017022},{lng:0.670220,lat:42.017062},{lng:0.670461,lat:42.017054},{lng:0.670525,lat:42.016959},{lng:0.670901,lat:42.017098},{lng:0.671008,lat:42.017254},{lng:0.671260,lat:42.017329},{lng:0.671588,lat:42.017632},{lng:0.671797,lat:42.017684},{lng:0.671829,lat:42.017732},{lng:0.672124,lat:42.017792},{lng:0.672156,lat:42.017911},{lng:0.672296,lat:42.018055},{lng:0.672505,lat:42.018083},{lng:0.672564,lat:42.018118},{lng:0.672607,lat:42.018043},{lng:0.672762,lat:42.018138},{lng:0.672660,lat:42.018194},{lng:0.672730,lat:42.018238},{lng:0.672800,lat:42.018250},{lng:0.672768,lat:42.018421},{lng:0.672880,lat:42.018465},{lng:0.672972,lat:42.018473},{lng:0.673133,lat:42.018549},{lng:0.673304,lat:42.018637},{lng:0.673567,lat:42.018657},{lng:0.673556,lat:42.018744},{lng:0.673680,lat:42.018764},{lng:0.673851,lat:42.018796},{lng:0.673921,lat:42.018844},{lng:0.674050,lat:42.018724},{lng:0.674152,lat:42.018561},{lng:0.674248,lat:42.018513},{lng:0.674350,lat:42.018425},{lng:0.674452,lat:42.018314},{lng:0.674484,lat:42.018226},{lng:0.674651,lat:42.018114},{lng:0.674586,lat:42.018047},{lng:0.674441,lat:42.018095},{lng:0.674302,lat:42.018242},{lng:0.674281,lat:42.018318},{lng:0.674281,lat:42.018354},{lng:0.674329,lat:42.018393},{lng:0.674082,lat:42.018517},{lng:0.673878,lat:42.018553},{lng:0.673690,lat:42.018513},{lng:0.673674,lat:42.018485},{lng:0.673508,lat:42.018409},{lng:0.673411,lat:42.018266},{lng:0.673487,lat:42.018099},{lng:0.673379,lat:42.018114},{lng:0.673385,lat:42.018043},{lng:0.673283,lat:42.018075},{lng:0.673122,lat:42.017895},{lng:0.673063,lat:42.017843},{lng:0.672982,lat:42.017768},{lng:0.672988,lat:42.017696},{lng:0.672762,lat:42.017708},{lng:0.672516,lat:42.017557},{lng:0.672430,lat:42.017557},{lng:0.672494,lat:42.017413},{lng:0.672500,lat:42.017345},{lng:0.672424,lat:42.017278},{lng:0.672285,lat:42.017290},{lng:0.672317,lat:42.017130},{lng:0.672258,lat:42.017062},{lng:0.672108,lat:42.017114},{lng:0.672124,lat:42.017015},{lng:0.672033,lat:42.016831},{lng:0.671958,lat:42.016799},{lng:0.671877,lat:42.016803},{lng:0.671883,lat:42.016720},{lng:0.671867,lat:42.016632},{lng:0.671775,lat:42.016616},{lng:0.671781,lat:42.016532},{lng:0.671834,lat:42.016429},{lng:0.671818,lat:42.016297},{lng:0.672145,lat:42.015958},{lng:0.672382,lat:42.015938},{lng:0.673492,lat:42.015301},{lng:0.673589,lat:42.015273},{lng:0.673664,lat:42.015213},{lng:0.673723,lat:42.015217},{lng:0.673798,lat:42.015121},{lng:0.673943,lat:42.015070},{lng:0.674034,lat:42.014970},{lng:0.674281,lat:42.014763},{lng:0.673433,lat:42.015014},{lng:0.672714,lat:42.015249},{lng:0.671743,lat:42.015516},{lng:0.671529,lat:42.015624},{lng:0.671368,lat:42.015731},{lng:0.671244,lat:42.015731},{lng:0.671121,lat:42.015803},{lng:0.670413,lat:42.016062},{lng:0.670348,lat:42.016098},{lng:0.670263,lat:42.016098},{lng:0.669817,lat:42.016194},{lng:0.669791,lat:42.016150},{lng:0.669715,lat:42.016194},{lng:0.669630,lat:42.016194},{lng:0.669458,lat:42.016217},{lng:0.669361,lat:42.016194},{lng:0.669276,lat:42.016110},{lng:0.669104,lat:42.016213},{lng:0.669168,lat:42.016269}
+];
+
+var path3=[{lng:0.582809,lat:41.998326},{lng:0.582898,lat:41.998288},{lng:0.582959,lat:41.998246},{lng:0.583043,lat:41.998180},{lng:0.582978,lat:41.998178},{lng:0.582860,lat:41.998180},{lng:0.582804,lat:41.998152},{lng:0.582753,lat:41.998137},{lng:0.582678,lat:41.998125},{lng:0.582613,lat:41.998099},{lng:0.582578,lat:41.998067},{lng:0.582562,lat:41.998021},{lng:0.582554,lat:41.997989},{lng:0.582530,lat:41.997947},{lng:0.582519,lat:41.997923},{lng:0.582501,lat:41.997863},{lng:0.582479,lat:41.997828},{lng:0.582407,lat:41.997836},{lng:0.582431,lat:41.997905},{lng:0.582485,lat:41.997921},{lng:0.582495,lat:41.997985},{lng:0.582541,lat:41.998027},{lng:0.582589,lat:41.998125},{lng:0.582694,lat:41.998164},{lng:0.582777,lat:41.998210},{lng:0.582825,lat:41.998280},{lng:0.582801,lat:41.998326}];
+
+var path4=[{lng:0.668492,lat:42.061752},{lng:0.668449,lat:42.060860},{lng:0.668879,lat:42.060350},{lng:0.669050,lat:42.060031},{lng:0.668964,lat:42.059330},{lng:0.671153,lat:42.051555},{lng:0.671754,lat:42.051746},{lng:0.671325,lat:42.052671},{lng:0.670853,lat:42.054232},{lng:0.670981,lat:42.054837},{lng:0.670381,lat:42.055475},{lng:0.670981,lat:42.056144},{lng:0.671153,lat:42.056972},{lng:0.671411,lat:42.057546},{lng:0.671110,lat:42.059012},{lng:0.671453,lat:42.059330},{lng:0.671582,lat:42.059776},{lng:0.671196,lat:42.062070},{lng:0.671754,lat:42.062994},{lng:0.673428,lat:42.064141},{lng:0.674157,lat:42.065766},{lng:0.674458,lat:42.066626},{lng:0.674415,lat:42.067455},{lng:0.674114,lat:42.067741},{lng:0.673943,lat:42.068283},{lng:0.675359,lat:42.068665},{lng:0.675831,lat:42.068888},{lng:0.677633,lat:42.071469},{lng:0.678234,lat:42.072361},{lng:0.678749,lat:42.072392},{lng:0.679049,lat:42.073316},{lng:0.679049,lat:42.074686},{lng:0.676045,lat:42.071915},{lng:0.674629,lat:42.070226},{lng:0.674157,lat:42.069557},{lng:0.674243,lat:42.069239},{lng:0.673470,lat:42.068729},{lng:0.673728,lat:42.068570},{lng:0.673470,lat:42.068124},{lng:0.672784,lat:42.067646},{lng:0.672655,lat:42.066563},{lng:0.672483,lat:42.065670},{lng:0.672483,lat:42.065129},{lng:0.671926,lat:42.064906},{lng:0.671368,lat:42.063695},{lng:0.670638,lat:42.063154},{lng:0.669308,lat:42.062771}];
+
+var path5=[
+{lng:0.621977,lat:42.005914},{lng:0.622246,lat:42.005836},{lng:0.622270,lat:42.005930},{lng:0.622216,lat:42.005970},{lng:0.622173,lat:42.006012},{lng:0.622243,lat:42.006024},{lng:0.622329,lat:42.006000},{lng:0.622463,lat:42.005994},{lng:0.622581,lat:42.006004},{lng:0.622686,lat:42.006050},{lng:0.622718,lat:42.006097},{lng:0.622739,lat:42.006157},{lng:0.622798,lat:42.006225},{lng:0.622804,lat:42.006257},{lng:0.622911,lat:42.006348},{lng:0.622656,lat:42.006169},{lng:0.622586,lat:42.006169},{lng:0.622578,lat:42.006139},{lng:0.622396,lat:42.006159},{lng:0.622281,lat:42.006201},{lng:0.621940,lat:42.006263},{lng:0.621876,lat:42.006293},{lng:0.621800,lat:42.006291},{lng:0.621806,lat:42.006263},{lng:0.621736,lat:42.006227},{lng:0.621766,lat:42.006171},{lng:0.621878,lat:42.006115},{lng:0.621876,lat:42.006079},{lng:0.621916,lat:42.006059},{lng:0.621951,lat:42.006050},{lng:0.621916,lat:42.005980},{lng:0.622026,lat:42.005946},{lng:0.621975,lat:42.005920}];
+
+var path6=[{lng:0.624665,lat:42.005410},{lng:0.624705,lat:42.005493},{lng:0.624665,lat:42.005535},{lng:0.624697,lat:42.005569},{lng:0.624729,lat:42.005619},{lng:0.624780,lat:42.005637},{lng:0.624823,lat:42.005621},{lng:0.624759,lat:42.005579},{lng:0.624756,lat:42.005553},{lng:0.624807,lat:42.005535},{lng:0.624772,lat:42.005491},{lng:0.624729,lat:42.005511},{lng:0.624732,lat:42.005456},{lng:0.624703,lat:42.005426},{lng:0.624705,lat:42.005400},{lng:0.624641,lat:42.005394},{lng:0.624654,lat:42.005418}]
+
+
+
+var path7=[{lng:0.573521,lat:42.013974},{lng:0.575581,lat:42.014404},{lng:0.575044,lat:42.014850},{lng:0.574594,lat:42.015281},{lng:0.574175,lat:42.015241},{lng:0.573864,lat:42.015305},{lng:0.573370,lat:42.015990},{lng:0.573381,lat:42.016197},{lng:0.573510,lat:42.016309},{lng:0.573510,lat:42.017242},{lng:0.573660,lat:42.017417},{lng:0.573649,lat:42.018095},{lng:0.573778,lat:42.018206},{lng:0.573767,lat:42.018581},{lng:0.573928,lat:42.018732},{lng:0.574025,lat:42.019099},{lng:0.574411,lat:42.019418},{lng:0.574476,lat:42.019697},{lng:0.574615,lat:42.019768},{lng:0.574754,lat:42.020016},{lng:0.575602,lat:42.020805},{lng:0.575817,lat:42.020932},{lng:0.576160,lat:42.021251},{lng:0.576589,lat:42.021370},{lng:0.576664,lat:42.021865},{lng:0.576138,lat:42.021976},{lng:0.576106,lat:42.022558},{lng:0.576138,lat:42.022662},{lng:0.576042,lat:42.022789},{lng:0.576149,lat:42.022869},{lng:0.576074,lat:42.023267},{lng:0.576257,lat:42.023347},{lng:0.576138,lat:42.023546},{lng:0.576192,lat:42.023897},{lng:0.576321,lat:42.023969},{lng:0.576224,lat:42.024144},{lng:0.576750,lat:42.026631},{lng:0.576879,lat:42.026687},{lng:0.576825,lat:42.026854},{lng:0.577641,lat:42.029038},{lng:0.576632,lat:42.029930},{lng:0.575656,lat:42.029038},{lng:0.575291,lat:42.028663},{lng:0.575151,lat:42.028416},{lng:0.575141,lat:42.028121},{lng:0.574765,lat:42.027659},{lng:0.574486,lat:42.027404},{lng:0.574282,lat:42.027149},{lng:0.574272,lat:42.027029},{lng:0.574358,lat:42.026846},{lng:0.574422,lat:42.026742},{lng:0.574443,lat:42.026527},{lng:0.574315,lat:42.026447},{lng:0.573950,lat:42.026224},{lng:0.573757,lat:42.025842},{lng:0.573767,lat:42.025778},{lng:0.573875,lat:42.025762},{lng:0.573853,lat:42.025658},{lng:0.573692,lat:42.025690},{lng:0.573467,lat:42.025587},{lng:0.573295,lat:42.025411},{lng:0.573188,lat:42.025132},{lng:0.573145,lat:42.025021},{lng:0.573177,lat:42.024933},{lng:0.573006,lat:42.024734},{lng:0.573006,lat:42.024519},{lng:0.572705,lat:42.024184},{lng:0.572598,lat:42.023746},{lng:0.572630,lat:42.022789},{lng:0.572555,lat:42.022686},{lng:0.572287,lat:42.022550},{lng:0.571761,lat:42.022415},{lng:0.571386,lat:42.022343},{lng:0.570978,lat:42.022359},{lng:0.570710,lat:42.022367},{lng:0.570313,lat:42.022383},{lng:0.569980,lat:42.022351},{lng:0.570163,lat:42.022231},{lng:0.570291,lat:42.022175},{lng:0.570302,lat:42.022064},{lng:0.571139,lat:42.021825},{lng:0.571214,lat:42.021857},{lng:0.571332,lat:42.021737},{lng:0.571579,lat:42.021626},{lng:0.572029,lat:42.021578},{lng:0.572641,lat:42.021562},{lng:0.572920,lat:42.021179},{lng:0.573242,lat:42.020542},{lng:0.573338,lat:42.019960},{lng:0.573242,lat:42.019466},{lng:0.573167,lat:42.019099},{lng:0.572920,lat:42.018772},{lng:0.572866,lat:42.018342},{lng:0.572662,lat:42.017943},{lng:0.572373,lat:42.017704},{lng:0.572426,lat:42.017497},{lng:0.572308,lat:42.017138},{lng:0.572147,lat:42.016827},{lng:0.572062,lat:42.016604},{lng:0.572051,lat:42.016389},{lng:0.572040,lat:42.016174},{lng:0.571997,lat:42.015966},{lng:0.572029,lat:42.015839},{lng:0.571847,lat:42.015624},{lng:0.571911,lat:42.015536},{lng:0.571986,lat:42.015528},{lng:0.571965,lat:42.015408},{lng:0.571986,lat:42.015281},{lng:0.572201,lat:42.014978},{lng:0.572383,lat:42.014715},{lng:0.572609,lat:42.014539},{lng:0.573081,lat:42.014372},{lng:0.573306,lat:42.014229},{lng:0.573606,lat:42.014093},{lng:0.573521,lat:42.013958}];
+
+var polygon = new google.maps.Polygon({
+
+  paths: path,
+  strokeColor: '#cc0000',
+  strokeOpacity: 1,
+  strokeWeight: 2,
+  fillColor: '#FF0000',
+  fillOpacity: 0.4
+});
+polygon.setMap(map);
+
+var polygon2 = new google.maps.Polygon({
+
+  paths: path2,
+  strokeColor: '#cc0000',
+  strokeOpacity: 1,
+  strokeWeight: 2,
+  fillColor: '#FF0000',
+  fillOpacity: 0.4
+});
+polygon2.setMap(map);
+
+var polygon3 = new google.maps.Polygon({
+
+  paths: path3,
+  strokeColor: '#cc0000',
+  strokeOpacity: 1,
+  strokeWeight: 2,
+  fillColor: '#FF0000',
+  fillOpacity: 0.4
+});
+polygon3.setMap(map);
+
+var polygon4 = new google.maps.Polygon({
+
+  paths: path4,
+  strokeColor: '#cc0000',
+  strokeOpacity: 1,
+  strokeWeight: 2,
+  fillColor: '#FF0000',
+  fillOpacity: 0.4
+});
+polygon4.setMap(map);
+
+
+var polygon5 = new google.maps.Polygon({
+
+  paths: path5,
+  strokeColor: '#cc0000',
+  strokeOpacity: 1,
+  strokeWeight: 2,
+  fillColor: '#FF0000',
+  fillOpacity: 0.4
+});
+polygon5.setMap(map);
+
+var polygon6 = new google.maps.Polygon({
+
+  paths: path6,
+  strokeColor: '#cc0000',
+  strokeOpacity: 1,
+  strokeWeight: 2,
+  fillColor: '#FF0000',
+  fillOpacity: 0.4
+});
+polygon6.setMap(map);
+
+
+var polygon7 = new google.maps.Polygon({
+
+  paths: path7,
+  strokeColor: '#ffc526',
+  strokeOpacity: 1,
+  strokeWeight: 2,
+  fillColor: '#f2b100',
+  fillOpacity: 0.4
+});
+polygon7.setMap(map);
+
+
+  var marker1ll={lat: 41.979528, lng:  0.652081};
+   var marker2ll={lat: 42.016816, lng:  0.671101};
+	   var marker3ll={lat: 41.998228 ,lng:  0.582836};
+	     var marker4ll={lat: 42.058342 ,lng:  0.670123};
+		   var marker5ll={lat: 42.006123 ,lng:  0.622216};
+		     var marker6ll={lat: 42.005462,lng:  0.624708};
+			      var marker7ll={lat: 42.014388,lng:  0.573907};
+			 
+   var marker1 = new MarkerWithLabel({
+       position: marker1ll,
+       map: map,
+      icon: "blank.png",
+       labelContent: "Orilla Catalana",
+       labelAnchor: new google.maps.Point(3, 30),
+       labelClass: "labels" 
+     });
+ 
+    var marker2 = new MarkerWithLabel({
+       position: marker2ll,
+       map: map,
+      icon: "blank.png",
+       labelContent: "La Nutria",
+       labelAnchor: new google.maps.Point(3, 30),
+       labelClass: "labels" 
+     });
+   var marker3= new MarkerWithLabel({
+       position: marker3ll,
+       map: map,
+      icon: "blank.png",
+       labelContent: "Cascada",
+       labelAnchor: new google.maps.Point(3, 30),
+       labelClass: "labels" 
+     });
+    var marker4= new MarkerWithLabel({
+       position: marker4ll,
+       map: map,
+      icon: "blank.png",
+       labelContent: "El Congost",
+       labelAnchor: new google.maps.Point(3, 30),
+       labelClass: "labels" 
+     });
+	     var marker5= new MarkerWithLabel({
+       position: marker5ll,
+       map: map,
+      icon: "blank.png",
+       labelContent: "Finestres",
+       labelAnchor: new google.maps.Point(3, 30),
+       labelClass: "labels" 
+     });
+ 
+    var marker6= new MarkerWithLabel({
+       position: marker6ll,
+       map: map,
+      icon: "blank.png",
+       labelContent: "Finestres",
+       labelAnchor: new google.maps.Point(3, 30),
+       labelClass: "labels" 
+     });
+	 
+	   var marker7= new MarkerWithLabel({
+       position: marker7ll,
+       map: map,
+      icon: "blank.png",
+       labelContent: "Río Aragón",
+       labelAnchor: new google.maps.Point(3, 30),
+       labelClass: "labels" 
+     });
+ 
+      }
+	  
+	
+
+	   
+ 
+
+
+	  
+	  
+    </script>
+    <script     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDN3YKGw7-eoqK4sLYLGxgd4vhlByJ1bCQ&libraries=drawing"
+        ></script>
+		<script src="markerwithlabel.js"></script>
+  </head>
+  <body  onload="initMap()">
+    <div id="map"></div>
+   	 
+	
+	
+  </body>
+</html>

