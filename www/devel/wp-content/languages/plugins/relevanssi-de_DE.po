@@ -1,0 +1,2147 @@
+# Translation of Plugins - Relevanssi &#8211; A Better Search - Stable (latest release) in German
+# This file is distributed under the same license as the Plugins - Relevanssi &#8211; A Better Search - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-12 12:05:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: de\n"
+"Project-Id-Version: Plugins - Relevanssi &#8211; A Better Search - Stable (latest release)\n"
+
+#: lib/tabs/synonyms-tab.php:61
+msgid "Relevanssi Premium has a feature that allows you to include the synonyms in the indexing. This makes it possible to use synonyms in AND searches."
+msgstr "Relevanssi Premium hat eine Funktion, mit der du die Synonyme in die Indexierung einbeziehen kannst. Dadurch ist es möglich, Synonyme in UND-Suchen zu verwenden."
+
+#: lib/tabs/synonyms-tab.php:57
+msgid "Synonyms are disabled because the searching operator is set to AND. Enable OR searching to use the synonyms."
+msgstr "Synonyme sind deaktiviert, weil der Suchoperator auf UND eingestellt ist. Aktiviere die ODER-Suche, um die Synonyme zu verwenden."
+
+#: lib/tabs/synonyms-tab.php:54
+msgid "No synonyms!"
+msgstr "Keine Synonyme!"
+
+#. Translators: %1$s opens the link, %2$s closes it.
+#: lib/tabs/overview-tab.php:77
+msgid "If you want a live search results, you can use the Relevanssi Live Ajax Search plugin. %1$sYou can find it in the plugin repository%2$s. It will make your search forms show instant results, powered by Relevanssi."
+msgstr "Wenn du eine Live-Suche möchtest, kannst du das Plugin Relevanssi Live Ajax Search verwenden. %1$sDu findest es im Plugin-Repository%2$s. Es sorgt dafür, dass deine Suchformulare sofortige Ergebnisse anzeigen, powered by Relevanssi."
+
+#: lib/tabs/overview-tab.php:74
+msgid "Relevanssi Live Ajax Search"
+msgstr "Relevanssi Live Ajax Search"
+
+#: lib/admin-ajax.php:35 lib/admin-ajax.php:189
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Du hast keine ausreichende Berechtigung, um auf diese Seite zuzugreifen."
+
+#: lib/indexing.php:31
+msgid "Relevanssi image attachment filter"
+msgstr "Relevanssi-Bildanhang-Filter"
+
+#: lib/user-searches.php:321
+msgid "Clicks"
+msgstr "Klicks"
+
+#: lib/user-searches.php:154
+msgid "These queries have found no results."
+msgstr "Diese Abfragen haben keine Ergebnisse gefunden."
+
+#: lib/user-searches.php:153
+msgid "Unsuccessful searches"
+msgstr "Erfolglose Suchen"
+
+#: lib/user-searches.php:146
+msgid "In order to see the clicks, you need to enable click tracking. Click tracking is not currently enabled, and you're not collecting new clicks."
+msgstr "Um die Klicks zu sehen, musst du die Klickverfolgung aktivieren. Klick-Tracking ist derzeit nicht aktiviert, und du sammelst keine neuen Klicks."
+
+#: lib/user-searches.php:142
+msgid "In order to see the clicks, you need Relevanssi Premium."
+msgstr "Um die Klicks sehen zu können, brauchst du Relevanssi Premium."
+
+#: lib/user-searches.php:138
+msgid "\"Hits\" is the average hits this search query has found."
+msgstr "„Treffer“ sind die durchschnittlichen Treffer, die diese Suchanfrage gefunden hat."
+
+#: lib/user-searches.php:137
+msgid "Successful searches"
+msgstr "Erfolgreiche Suchen"
+
+#: lib/user-searches.php:125
+msgid "Searches that found nothing"
+msgstr "Suchen, die nichts gefunden haben"
+
+#: lib/user-searches.php:112
+msgid "# of Searches"
+msgstr "# Anzahl der Suchanfragen"
+
+#: lib/user-searches.php:103
+msgid "All history"
+msgstr "Gesamte Historie"
+
+#: lib/user-searches.php:102
+msgid "7 days"
+msgstr "7 Tage"
+
+#: lib/user-searches.php:101
+msgid "Last week"
+msgstr "Letzte Woche"
+
+#: lib/user-searches.php:100
+msgid "This week"
+msgstr "Diese Woche"
+
+#: lib/user-searches.php:99
+msgid "30 days"
+msgstr "30 Tage"
+
+#: lib/user-searches.php:98
+msgid "Last month"
+msgstr "Letzter Monat"
+
+#: lib/user-searches.php:97
+msgid "This month"
+msgstr "Diesen Monat"
+
+#: lib/user-searches.php:96
+msgid "Year so far"
+msgstr "Bisheriges Jahr"
+
+#: lib/user-searches.php:93
+msgid "Filter"
+msgstr "Filter"
+
+#: lib/user-searches.php:92
+msgid "To:"
+msgstr "An:"
+
+#: lib/user-searches.php:91
+msgid "From:"
+msgstr "Von:"
+
+#: lib/tabs/synonyms-tab.php:100
+msgid "You are using Polylang and are in \"Show all languages\" mode. Please select a language before adjusting the synonym settings."
+msgstr "Du verwendest Polylang und bist im Modus „Alle Sprachen anzeigen“. Bitte wähle eine Sprache aus, bevor du die Synonymeinstellungen anpasst."
+
+#: lib/tabs/synonyms-tab.php:59
+msgid "If you want to use synonyms in AND searches, enable synonym indexing on the Indexing tab. Also, any changes to the synonyms won't take effect until you rebuild the index."
+msgstr "Wenn du Synonyme in der UND-Suche verwenden möchtest, aktiviere die Synonym-Indexierung auf dem Tab Indexierung. Außerdem werden alle Änderungen an den Synonymen erst wirksam, wenn du den Index neu erstellst."
+
+#: lib/tabs/stopwords-tab.php:146
+msgid "You are using Polylang and are in \"Show all languages\" mode. Please select a language before adjusting the stopword settings."
+msgstr "Du verwendest Polylang und bist im Modus „Alle Sprachen anzeigen“. Bitte wähle eine Sprache aus, bevor du die Stoppwort-Einstellungen anpasst."
+
+#: lib/tabs/search-page.php:55
+msgid "Users"
+msgstr "Benutzer"
+
+#: lib/tabs/logging-tab.php:123
+msgid "Relevanssi Premium has a click tracking feature where you can track which posts are clicked from the search results. That way you can tell what is your most interesting content and how the search is actually used to access posts."
+msgstr "Relevanssi Premium hat eine Klick-Tracking-Funktion, mit der du verfolgen kannst, welche Beiträge in den Suchergebnissen angeklickt werden. So kannst du feststellen, welche Inhalte für dich am interessantesten sind und wie die Suche tatsächlich genutzt wird, um auf Beiträge zuzugreifen."
+
+#: lib/tabs/logging-tab.php:122
+msgid "Click tracking"
+msgstr "Klick-Tracking"
+
+#: lib/tabs/debugging-tab.php:91
+msgid "User"
+msgstr "Benutzer"
+
+#: lib/tabs/debugging-tab.php:87
+msgid "Taxonomy term"
+msgstr "Taxonomiebegriff"
+
+#: lib/tabs/debugging-tab.php:83
+msgid "Post"
+msgstr "Beitrag"
+
+#: lib/tabs/debugging-tab.php:68 lib/tabs/debugging-tab.php:110
+msgid "The ID"
+msgstr "Die ID"
+
+#: lib/tabs/debugging-tab.php:60
+msgid "You can also check user profiles and taxonomy terms by choosing the type from the dropdown."
+msgstr "Du kannst auch Nutzerprofile und Taxonomiebegriffe überprüfen, indem du den Typ aus dem Dropdown-Menü auswählst."
+
+#: lib/interface.php:350
+msgid "Are you sure you want to delete the query?"
+msgstr "Bist du sicher, dass du die Abfrage löschen willst?"
+
+#: lib/common.php:1540
+msgid "The content"
+msgstr "Der Inhalt"
+
+#: lib/common.php:1536
+msgid "The title"
+msgstr "Der Titel"
+
+#: lib/common.php:147
+msgid "Missing"
+msgstr "Fehlend"
+
+#: lib/compatibility/rankmath.php:87
+msgid "If checked, Relevanssi will not index posts marked as \"No index\" in Rank Math SEO settings."
+msgstr "Falls markiert, indexiert Relevanssi keine Beiträge, die in den Rank-Math-SEO-Einstellungen als „Kein Index“ markiert sind."
+
+#: lib/compatibility/rankmath.php:85
+msgid "Use Rank Math SEO noindex."
+msgstr "Rank Math SEO noindex verwenden."
+
+#: lib/compatibility/rankmath.php:80
+msgid "Use Rank Math SEO noindex"
+msgstr "Rank Math SEO noindex verwenden"
+
+#: lib/compatibility/seopress.php:89
+msgid "If checked, Relevanssi will not index posts marked as \"No index\" in SEOPress settings."
+msgstr "Falls markiert, indexiert Relevanssi keine Beiträge, die in den SEOPress-Einstellungen als „Kein Index“ markiert sind."
+
+#: lib/compatibility/seopress.php:87
+msgid "Use SEOPress noindex."
+msgstr "SEOPress noindex verwenden."
+
+#: lib/compatibility/seopress.php:82
+msgid "Use SEOPress noindex"
+msgstr "SEOPress noindex verwenden"
+
+#: lib/compatibility/yoast-seo.php:89
+msgid "If checked, Relevanssi will not index posts marked as \"No index\" in Yoast SEO settings."
+msgstr "Falls markiert, indexiert Relevanssi keine Beiträge, die in den Yoast SEO-Einstellungen als „Kein Index“ markiert sind."
+
+#: lib/compatibility/yoast-seo.php:87
+msgid "Use Yoast SEO noindex."
+msgstr "Yoast SEO-noindex verwenden."
+
+#: lib/compatibility/yoast-seo.php:82
+msgid "Use Yoast SEO noindex"
+msgstr "Yoast SEO-noindex verwenden"
+
+#: lib/compatibility/aioseo.php:95
+msgid "If checked, Relevanssi will not index posts marked as \"No index\" in All-in-One SEO settings."
+msgstr "Falls markiert, indexiert Relevanssi keine Beiträge, die in den All-in-One SEO-Einstellungen als „Kein Index“ markiert sind."
+
+#: lib/compatibility/aioseo.php:93
+msgid "Use All-in-One SEO noindex."
+msgstr "All-in-One SEO noindex verwenden."
+
+#: lib/compatibility/aioseo.php:88
+msgid "Use All-in-One SEO noindex"
+msgstr "All-in-One SEO noindex verwenden"
+
+#: lib/compatibility/seoframework.php:83
+msgid "If checked, Relevanssi will not index posts marked as \"No index\" in SEO Framework settings."
+msgstr "Falls markiert, indexiert Relevanssi keine Beiträge, die in den SEO-Framework-Einstellungen als „Kein Index“ markiert sind."
+
+#: lib/compatibility/seoframework.php:81
+msgid "Use SEO Framework noindex."
+msgstr "SEO Framework noindex verwenden."
+
+#: lib/compatibility/seoframework.php:76
+msgid "Use SEO Framework noindex"
+msgstr "SEO Framework noindex verwenden"
+
+#: lib/log.php:252
+msgid "No search keywords logged."
+msgstr "Keine Stichwörter für die Suche protokolliert."
+
+#: lib/common.php:1576
+msgid "MySQL content"
+msgstr "MySQL-Inhalte"
+
+#: lib/common.php:1568
+msgid "Excerpt"
+msgstr "Textauszug"
+
+#: lib/common.php:1564
+msgid "Authors"
+msgstr "Autoren"
+
+#: lib/common.php:1560
+msgid "Links"
+msgstr "Links"
+
+#: lib/common.php:1556
+msgid "Other taxonomies"
+msgstr "Andere Taxonomien"
+
+#: lib/common.php:1552
+msgid "Categories"
+msgstr "Kategorien"
+
+#: lib/common.php:1548
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: lib/common.php:1532
+msgid "Possible reasons this post is not indexed"
+msgstr "Mögliche Gründe, warum dieser Beitrag nicht indexiert ist"
+
+#. Translators: %d is the post ID.
+#: lib/common.php:1525
+msgid "Nothing found for ID %d."
+msgstr "Nichts gefunden für ID %d."
+
+#: lib/tabs/excerpts-tab.php:377
+msgid "When a highlight matches part of the word, if this option is enabled, the highlight will be expanded to highlight the whole word."
+msgstr "Wenn eine Hervorhebung mit einem Teil des Wortes übereinstimmt und diese Option aktiviert ist, wird die Hervorhebung auf das gesamte Wort erweitert."
+
+#: lib/tabs/excerpts-tab.php:375
+msgid "Expand highlights to cover full words"
+msgstr "Hervorhebungen auf ganze Worte erweitern"
+
+#: lib/tabs/excerpts-tab.php:364
+msgid "Expand highlights"
+msgstr "Hervorhebungen erweitern"
+
+#: lib/tabs/debugging-tab.php:100 lib/tabs/debugging-tab.php:122
+msgid "Check the post"
+msgstr "Beitrag überprüfen"
+
+#. Translators: %1$s starts the link, %2$s closes it.
+#: lib/tabs/debugging-tab.php:65
+msgid "In Relevanssi Premium, you can find this feature for each post on the post edit page. %1$sBuy Relevanssi Premium here%2$s."
+msgstr "In Relevanssi Premium findest du diese Funktion für jeden Beitrag auf der Seite zum Bearbeiten von Beiträgen. %1$sKaufe Relevanssi Premium hier%2$s."
+
+#: lib/tabs/debugging-tab.php:56
+msgid "In order to figure out problems with indexing posts, you can test how Relevanssi sees the post by entering the post ID number in the field below."
+msgstr "Um Probleme bei der Indexierung von Beiträgen herauszufinden, kannst du testen, wie Relevanssi den Beitrag sieht, indem du die Beitrags-ID in das Feld unten eingibst."
+
+#: lib/interface.php:240 lib/tabs/debugging-tab.php:54
+msgid "Debugging"
+msgstr "Fehlersuche"
+
+#. Translators: %1$s opens the a tag, %2$s closes it.
+#: lib/tabs/indexing-tab.php:145
+msgid "These values may be inaccurate. If you need exact values, %1$supdate the counts%2$s"
+msgstr "Diese Werte können ungenau sein. Wenn du genaue Werte benötigst, %1$saktualisiere die Zählungen%2$s"
+
+#: lib/indexing.php:509
+msgid "Blocked by a filter function"
+msgstr "Durch eine Filterfunktion blockiert"
+
+#: lib/indexing.php:480
+msgid "Relevanssi index exclude"
+msgstr "Relevanssi Index ausgeschlossen"
+
+#: lib/tabs/stopwords-tab.php:118
+msgid "Add default stopwords"
+msgstr "Standard-Stoppwörter hinzufügen"
+
+#: lib/stopwords.php:79
+msgid "Added stopwords from the stopword file."
+msgstr "Stoppwörter aus der Stoppwortdatei hinzugefügt."
+
+#: lib/stopwords.php:68
+msgid "Couldn't read the stopwords from the file."
+msgstr "Die Stoppwörter konnten nicht aus der Datei gelesen werden."
+
+#. Translators: %s is the language code.
+#: lib/stopwords.php:52
+msgid "The stopword file for the language '%s' doesn't exist."
+msgstr "Die Stoppwortdatei für die Sprache '%s' existiert nicht."
+
+#: lib/stopwords.php:38
+msgid "Added stopwords from the database."
+msgstr "Stoppwörter aus der Datenbank hinzugefügt."
+
+#. Translators: %s is the taxonomy name.
+#: lib/tabs/indexing-tab.php:291
+msgid "Taxonomy %s is public"
+msgstr "Taxonomie %s ist öffentlich"
+
+#. Translators: %s is the taxonomy name.
+#: lib/tabs/indexing-tab.php:287
+msgid "Taxonomy %s is not public"
+msgstr "Taxonomie %s ist nicht öffentlich"
+
+#. Translators: %s is the taxonomy name.
+#: lib/tabs/indexing-tab.php:284
+msgid "Index taxonomy %s"
+msgstr "Taxonomie %s indexieren"
+
+#. Translators: %1$s opens the link, %2$s closes it.
+#: lib/tabs/indexing-tab.php:253
+msgid "For more detailed control over the attachment type indexing, see %1$sControlling attachment types in the Knowledge base%2$s."
+msgstr "Ausführlichere Informationen zur Steuerung der Indexierung von Anhangstypen findest du unter %1$sKontrollieren von Anhangstypen in der Wissensdatenbank%2$s."
+
+#: lib/tabs/indexing-tab.php:251
+msgid "If this option is enabled, Relevanssi will include image attachments in the index. If the option is disabled, only other attachment types are included."
+msgstr "Wenn diese Option aktiviert ist, nimmt Relevanssi Bildanhänge in den Index auf. Wenn die Option deaktiviert ist, sind nur andere Anhangtypen enthalten."
+
+#: lib/tabs/indexing-tab.php:249
+msgid "Index image attachments"
+msgstr "Bild-Anhänge indexieren"
+
+#: lib/tabs/indexing-tab.php:244
+msgid "Index image files"
+msgstr "Bilddateien indexieren"
+
+#. Translators: %s is the post type name.
+#: lib/tabs/indexing-tab.php:201
+msgid "Post type %s can be searched"
+msgstr "Beitragstyp %s kann gesucht werden"
+
+#. Translators: %s is the post type name.
+#: lib/tabs/indexing-tab.php:197
+msgid "Post type %s is excluded from search"
+msgstr "Beitragstyp %s ist von der Suche ausgeschlossen"
+
+#. Translators: %s is the post type name.
+#: lib/tabs/indexing-tab.php:193
+msgid "Index post type %s"
+msgstr "Beitragstype %s indexieren"
+
+#: lib/tabs/indexing-tab.php:170
+msgid "Post types to index"
+msgstr "Beitragstypen für die Indexierung"
+
+#: lib/interface.php:372
+msgid "There were problems wiping the Relevanssi attachment data clean."
+msgstr "Es gab Probleme beim Löschen der Relevanssi-Anhangsdaten."
+
+#: lib/user-searches.php:186
+msgid "Reset"
+msgstr "Zurücksetzen"
+
+#. Translators: do not translate "reset".
+#: lib/user-searches.php:168
+msgid "To reset the logs, type \"reset\" into the box here and click the Reset button"
+msgstr "Um die Protokolle zurückzusetzen, gib „reset“ in das Feld hier ein und klicke auf den Button Zurücksetzen"
+
+#: lib/tabs/excerpts-tab.php:421
+msgid "Use %body%, %title%, %categories%, %tags%, %taxonomies%, %comments%, %customfields%, %author%, %excerpt% and %mysqlcolumns% to display the number of hits (in different parts of the post), %total% for total hits, %score% to display the document weight and %terms% to show how many hits each search term got."
+msgstr "Verwende %body%, %title%, %categories%, %tags%, %taxonomies%, %comments%, %customfields%, %author%, %excerpt% und %mysqlcolumns%, um die Anzahl der Treffer (in verschiedenen Teilen des Beitrags) anzuzeigen, %total% für die Gesamtzahl der Treffer, %score% für die Anzeige des Dokumentgewichts und %term% für die Anzeige, wie viele Treffer jeder Suchbegriff erhalten hat."
+
+#. Translators: %1$d is the total number of posts found, %2$d is the current
+#. search result count, %3$d is the offset.
+#: lib/admin-ajax.php:255
+msgid "Found a total of %1$d posts, showing posts %2$d–%3$s."
+msgstr "Es wurden insgesamt %1$d Beiträge gefunden, angezeigt werden Beiträge %2$d–%3$s."
+
+#: lib/tabs/search-page.php:36
+msgid "Any"
+msgstr "Alle"
+
+#: lib/tabs/search-page.php:32
+msgid "Post type"
+msgstr "Inhaltstyp"
+
+#: lib/tabs/indexing-tab.php:232
+msgid "If you want to index a post type that's marked 'Excluded from search', you can do that without worrying about it – but you need to uncheck the 'Respect exclude_from_search' setting from the Searching tab."
+msgstr "Wenn du einen Beitragstyp indexieren willst, der als 'Von der Suche ausgeschlossen' markiert ist, kannst du dies tun, ohne dir darüber Gedanken machen zu müssen. Du musst jedoch die Einstellung 'exclude_from_search respektieren' auf dem Suchen-Tab deaktivieren."
+
+#: lib/tabs/excerpts-tab.php:125
+msgid "Excerpt length type"
+msgstr "Textauszugslänge-Typ"
+
+#. Translators: %1$s is 'dropdown', %2$s is '[searchform dropdown="category"]'.
+#: lib/contextual-help.php:174
+msgid "You can use the %1$s parameter to add a taxonomy dropdown to the search form. Just use the name of the taxonomy, like %2$s. This works best with hierarchical taxonomies like categories with relatively few options available."
+msgstr "Mit dem Parameter %1$s kannst du dem Suchformular eine Dropdownliste von Taxonomien hinzufügen. Verwende einfach den Namen der Taxonomie, wie %2$s. Dies funktioniert am besten mit hierarchischen Taxonomien wie Kategorien mit relativ wenigen verfügbaren Optionen."
+
+#: lib/shortcodes.php:166
+msgid "None"
+msgstr "Keine"
+
+#. Translators: %1$s is the "partial words if no hits" option and %2$s is the
+#. "partial words" option.
+#: lib/tabs/searching-tab.php:135
+msgid "Partial words if not hits for whole words"
+msgstr "Teilwörter, wenn es keine Treffer für ganze Wörter gibt"
+
+#. Translators: %1$s is the "partial words if no hits" option and %2$s is the
+#. "partial words" option.
+#: lib/tabs/searching-tab.php:135
+msgid "Choosing the \"%1$s\" option may lead to unexpected results. Most of the time the \"%2$s\" option is the better choice."
+msgstr "Die Auswahl der Option „%1$s“ kann zu unerwarteten Ergebnissen führen. Meistens ist die Option „%2$s“ die bessere Wahl."
+
+#: lib/tabs/logging-tab.php:93
+msgid "Big log database table will eventually start to slow down the search, so it's a good idea to use some level of automatic log trimming."
+msgstr "Eine große Protokolldatenbanktabelle verlangsamt möglicherweise die Suche. Daher empfiehlt es sich, ein gewisses Maß an automatischem Protokolltrimmen zu verwenden."
+
+#: lib/tabs/stopwords-tab.php:37
+msgid "Content stopwords are a premium feature where you can set stopwords that only apply to the post content. Those stopwords will still be indexed if they appear in post titles, tags, categories, custom fields or other parts of the post. To use content stopwords, you need Relevanssi Premium."
+msgstr "Inhalts-Stoppwörter sind eine Premiumfunktion, mit der du Stoppwörter festlegen kannst, die nur für den Beitragsinhalt gelten. Diese Stoppwörter werden weiterhin indexiert, wenn sie in Beitragstiteln, Schlagwörter, Kategorien, individuellen Feldern oder anderen Teilen des Beitrags erscheinen. Um Inhaltsstoppwörter zu verwenden, benötigst du Relevanssi Premium."
+
+#: lib/tabs/stopwords-tab.php:29
+msgid "Content stopwords"
+msgstr "Inhalts-Stoppwörter"
+
+#: lib/common.php:1158
+msgid "Add to content stopwords"
+msgstr "Zu Inhalt-Stoppwörtern hinzufügen"
+
+#: lib/admin-ajax.php:289
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: lib/admin-ajax.php:260
+msgid "Next page"
+msgstr "Nächste Seite"
+
+#: lib/admin-ajax.php:257
+msgid "Previous page"
+msgstr "Vorherige Seite"
+
+#: lib/tabs/overview-tab.php:124
+msgid "Redirect search queries to custom URLs"
+msgstr "Suchanfragen zu individuellen URLs umleiten"
+
+#: lib/tabs/overview-tab.php:115
+msgid "A Related posts feature"
+msgstr "Eine Funktion für verwandte Beiträge"
+
+#. Translators: %s is the stopword.
+#: lib/stopwords.php:166
+msgid "Couldn't add term '%s' to stopwords!"
+msgstr "Der Begriff '%s' konnte nicht zu Stoppwörtern hinzugefügt werden!"
+
+#: lib/tabs/redirects-tab.php:20
+msgid "With Relevanssi Premium, you can set up redirects. These are keywords that automatically redirect the user to certain page, without going through the usual search process. For example, you could set it up so that all searches for \"job\" automatically lead to your \"Careers\" page."
+msgstr "Mit Relevanssi Premium kannst du Weiterleitungen einrichten. Das sind Stichwörter, die den Benutzer automatisch auf eine bestimmte Seite umleiten, ohne den üblichen Suchvorgang durchlaufen zu müssen. Du kannst es beispielsweise so einrichten, dass alle Suchanfragen nach „Job“ automatisch zu deiner Seite „Karriere“ führen."
+
+#: lib/interface.php:233 lib/tabs/redirects-tab.php:18
+msgid "Redirects"
+msgstr "Weiterleitungen"
+
+#: lib/tabs/search-page.php:89
+msgctxt "button action"
+msgid "Search"
+msgstr "Suche"
+
+#. Translators: example query string.
+#: lib/tabs/search-page.php:82
+msgid "Use query parameter formatting here, the same that would appear on search page results URL. For example %s."
+msgstr "Verwende hier die Formatierung der Abfrageparameter, die auch in der URL der Suchseitenergebnisse angezeigt wird. Zum Beispiel %s."
+
+#: lib/tabs/search-page.php:77
+msgid "Search parameters"
+msgstr "Suchparameter"
+
+#: lib/tabs/search-page.php:68
+msgid "All"
+msgstr "Alle"
+
+#: lib/tabs/search-page.php:64
+msgid "Posts per page"
+msgstr "Beiträge pro Seite"
+
+#: lib/tabs/search-page.php:24
+msgid "Search terms"
+msgstr "Suchbegriffe"
+
+#: lib/tabs/search-page.php:18
+msgid "You can use this search to perform Relevanssi searches without any restrictions from WordPress. You can search all post types here."
+msgstr "Du kannst diese Suche verwenden, um Suchen mit Relevanssi ohne Einschränkungen von WordPress durchzuführen. Hier kannst du alle Beitragstypen suchen."
+
+#: lib/tabs/logging-tab.php:111
+msgid "Push the button to export the search log as a CSV file."
+msgstr "Drücke den Button, um das Suchprotokoll als CSV-Datei zu exportieren."
+
+#: lib/tabs/logging-tab.php:110
+msgid "Export the log as a CSV file"
+msgstr "Das Protokoll als CSV-Datei exportieren"
+
+#: lib/tabs/logging-tab.php:107
+msgid "Export logs"
+msgstr "Protokolle exportieren"
+
+#: lib/tabs/indexing-tab.php:355
+msgid "Advanced Custom Fields has lots of invisible custom fields with meta data. Selecting \"all\" will include lots of garbage in the index and excerpts. \"Visible\" is usually a better option with ACF."
+msgstr "Advanced Custom Fields hat viele unsichtbare individuelle Felder mit Metadaten. Die Auswahl von „Allen“ wird eine Menge sinnloser Daten in den Index und die Textauszüge aufnehmen. „Sichtbar“ ist üblicherweise die bessere Option für ACF."
+
+#. Translators: %1$s opens the link, %2$s closes it.
+#: lib/tabs/excerpts-tab.php:103
+msgid "Looks like you are using Divi. In order to use custom excerpts with Divi, you need to make some changes to your templates. %1$sSee instructions here%2$s."
+msgstr "Es sieht so aus, als ob du Divi verwendest. Um individuelle Textauszüge mit Divi verwenden zu können, musst du einige Änderungen an deinen Templates vornehmen. %1$sSiehe Anweisungen hier%2$s."
+
+#: lib/interface.php:108
+msgid "Admin Search"
+msgstr "Admin-Suche"
+
+#: lib/admin-ajax.php:408
+msgid "hide"
+msgstr "Verbergen"
+
+#: lib/admin-ajax.php:407
+msgid "show"
+msgstr "Anzeigen"
+
+#: lib/admin-ajax.php:406
+msgid "Filters"
+msgstr "Filter"
+
+#: lib/admin-ajax.php:337
+msgid "Query variables"
+msgstr "Abfrage-Variablen"
+
+#: lib/admin-ajax.php:264
+msgid "Score:"
+msgstr "Punktzahl:"
+
+#: lib/admin-ajax.php:251 lib/tabs/indexing-tab.php:130
+msgid "Results"
+msgstr "Ergebnisse"
+
+#. Translators: %1$s opens the link, %2$s closes the link.
+#: lib/tabs/overview-tab.php:100
+msgid "If you like Relevanssi, leaving a five-star review on WordPress.org will help others discover Relevanssi. %1$sYou can add your review here%2$s."
+msgstr "Wenn dir Relevanssi gefällt, hilft das Abgeben einer Fünf-Sterne-Bewertung auf WordPress.org anderen, Relevanssi zu entdecken. %1$sDu kannst hier deine Bewertung hinzufügen%2$s."
+
+#: lib/tabs/overview-tab.php:98
+msgid "If you do, the best way to show your appreciation is to spread the word and perhaps give us a good review on WordPress.org."
+msgstr "Wenn du dies tust, ist der beste Weg, deine Wertschätzung zu zeigen, das Wort zu verbreiten und uns vielleicht eine gute Bewertung auf WordPress.org zu geben."
+
+#: lib/tabs/overview-tab.php:96
+msgid "Do you like Relevanssi?"
+msgstr "Gefällt dir Relevanssi?"
+
+#. Translators: %1$s and %3$s open the links, %2$s closes them.
+#: lib/tabs/overview-tab.php:84
+msgid "%1$sGDPR Compliance at Relevanssi knowledge base%2$s explains how using Relevanssi affects the GDPR compliance and the privacy policies of your site. Relevanssi also supports the %3$sprivacy policy tool%2$s and the WordPress user data export and erase tools."
+msgstr "%1$sDSGVO-Konformität in der Relevanssi Wissensdatenbank%2$s erklärt, wie sich die Verwendung von Relevanssi auf die DSGVO(GDPR)-Konformität und die Datenschutzrichtlinien deiner Website auswirkt. Relevanssi unterstützt auch das %3$sDatenschutzwerkzeug%2$s und die WordPress-Werkzeuge zum Exportieren und Löschen von Benutzerdaten."
+
+#: lib/tabs/overview-tab.php:81
+msgid "Privacy and GDPR compliance"
+msgstr "Datenschutz und DSGVO-Konformität"
+
+#: lib/privacy.php:64 lib/privacy.php:81
+msgid "Relevanssi Search Logs"
+msgstr "Relevanssi-Such-Protokolle"
+
+#: lib/privacy.php:47
+msgid "The search logs are stored indefinitely."
+msgstr "Die Suchprotokolle werden unbegrenzt gespeichert."
+
+#. Translators: %d is the number of days.
+#: lib/privacy.php:45
+msgid "The search logs are stored for %d days before they are automatically removed."
+msgstr "Die Suchprotokolle werden %d Tage lang gespeichert, bevor sie automatisch entfernt werden."
+
+#: lib/privacy.php:42
+msgid "How long we retain your data"
+msgstr "Wie lange wir deine Daten speichern"
+
+#: lib/privacy.php:39
+msgid "All searches performed using the internal site search are logged in the database, including the following information: the search query, the number of hits found, user ID for users who are logged in and date and time."
+msgstr "Alle Suchvorgänge, die mit der internen Website-Suche durchgeführt werden, werden in der Datenbank protokolliert, einschließlich der folgenden Informationen: Suchabfrage, Anzahl der gefundenen Treffer, Benutzer-ID für angemeldete Benutzer sowie Datum und Uhrzeit."
+
+#: lib/privacy.php:37
+msgid "All searches performed using the internal site search are logged in the database, including the following information: the search query, the number of hits found, user ID for users who are logged in, date and time and the IP address. The IP address is stored for security and auditing purposes."
+msgstr "Alle Suchvorgänge, die mit der internen Website-Suche durchgeführt werden, werden in der Datenbank protokolliert, einschließlich der folgenden Informationen: Suchabfrage, Anzahl der gefundenen Treffer, Benutzer ID für angemeldete Benutzer, Datum und Uhrzeit sowie IP Adresse. Die IP-Adresse wird zu Sicherheits- und Überwachungszwecken gespeichert."
+
+#: lib/privacy.php:36
+msgid "IP address for searches"
+msgstr "IP-Adresse für Suchen"
+
+#: lib/privacy.php:34
+msgid "What personal data we collect and why we collect it"
+msgstr "Welche personenbezogenen Daten wir sammeln und warum wir sie sammeln"
+
+#: lib/log.php:166
+msgid "IP address"
+msgstr "IP-Adresse"
+
+#: lib/log.php:162
+msgid "Hits found"
+msgstr "Gefundene Treffer"
+
+#: lib/log.php:154
+msgid "Time"
+msgstr "Zeit"
+
+#: lib/log.php:151
+msgid "Logged searches"
+msgstr "Protokollierte Suchen"
+
+#. Translators: %s is 'Uncheck this if you use non-ASCII characters' option
+#. name.
+#: lib/contextual-help.php:26
+msgid "To get inside-word highlights, uncheck the \"%s\" option. That has a side-effect of enabling the inside-word highlights."
+msgstr "Um Hervorhebungen innerhalb von Wörtern zu erhalten, wähle die Option „%s“ ab. Dies hat zu Folge, dass die Hervorhebungen innerhalb von Wörtern aktiviert werden."
+
+#: lib/contextual-help.php:199
+msgid "If you don't want to index products that are out of stock, excluded from the catalog or excluded from the search, there's a product visibility filtering method that is described in the user manual (see link above)."
+msgstr "Wenn du keine Produkte indexieren willst, die nicht vorrätig, aus dem Katalog ausgeschlossen oder von der Suche ausgeschlossen sind, gibt es eine Filtermethode für die Sichtbarkeit von Produkten, die im Benutzerhandbuch beschrieben wird (siehe Link oben)."
+
+#: lib/interface.php:363
+msgid "attachments found."
+msgstr "Anhänge gefunden."
+
+#: lib/interface.php:359
+msgid "Counting attachments..."
+msgstr "Zählen von Anhängen ..."
+
+#: lib/interface.php:355
+msgid "Indexing attachments..."
+msgstr "Anhänge indexieren ..."
+
+#: lib/tabs/attachments-tab.php:20
+msgid "With Relevanssi Premium, you can index the text contents of attachments (PDFs, Word documents, Open Office documents and many other types). The contents of the attachments are processed on an external service, which makes the feature reliable and light on your own server performance."
+msgstr "Mit Relevanssi Premium kannst du den Textinhalt von Anhängen (PDFs, Word-Dokumente, Open-Office-Dokumente und viele andere Typen) indexieren. Der Inhalt der Anhänge wird von einem externen Dienst verarbeitet, wodurch die Funktion zuverlässig ist und die Leistung deines eigenen Servers nicht beeinträchtigt."
+
+#: lib/tabs/indexing-tab.php:131
+msgid "Indexing should respond quickly. If nothing happens in couple of minutes, it's probably stuck. The most common reasons for indexing issues are incompatible shortcodes, so try disabling the shortcode expansion setting and try again. Also, if you've just updated Relevanssi, doing a hard refresh in your browser will make sure your browser is not trying to use an outdated version of the Relevanssi scripts."
+msgstr "Die Indexierung sollte schnell reagieren. Wenn in ein paar Minuten nichts passiert, steckt sie wahrscheinlich fest. Die häufigsten Gründe für Indexierungsprobleme sind inkompatible Shortcodes. Deaktiviere daher die Einstellung für die Shortcode-Erweiterung und versuche es erneut. Wenn du Relevanssi gerade aktualisiert hast, wird durch eine Aktualisierung deines Browserfensters (Hard Refresh) sichergestellt, dass dein Browser nicht versucht, eine veraltete Version der Relevanssi-Skripte zu verwenden."
+
+#: lib/interface.php:371
+msgid "Relevanssi attachment data wiped clean."
+msgstr "Relevanssi-Anhangsdaten wurden gelöscht."
+
+#. Translators: %1$s is the title weight and %2$s is the content weight.
+#: lib/contextual-help.php:207
+msgid "The default values are %1$s for titles and %2$s for content."
+msgstr "Die Standardwerte sind %1$s für Titel und %2$s für Inhalte."
+
+#. Translators: %s is the name of the filter hook.
+#: lib/contextual-help.php:205
+msgid "To adjust the amount of the exact match bonus, you can use the %s filter hook. It works like this:"
+msgstr "Um die Höhe des Bonus für die genaue Übereinstimmung anzupassen, kannst du den Filter-Hook %s verwenden. Es funktioniert so:"
+
+#: lib/contextual-help.php:212
+msgid "Exact match bonus"
+msgstr "Bonus für exakte Übereinstimmung"
+
+#. Translators: %1$s is '[searchform post_types="page"]', %2$s is '[searchform
+#. cats="10,14,17"]'.
+#: lib/contextual-help.php:172
+msgid "If you need to add query variables to the search form, the shortcode takes parameters, which are then printed out as hidden input fields. To get a search form with a post type restriction, you can use %1$s. To restrict the search to categories 10, 14 and 17, you can use %2$s and so on."
+msgstr "Wenn du dem Suchformular Abfragevariablen hinzufügen musst, verwendet der Shortcode Parameter, die dann als versteckte Eingabefelder ausgegeben werden. Um ein Suchformular mit einer Einschränkung für den Beitragstyp zu erhalten, kannst du %1$s verwenden. Um die Suche auf die Kategorien 10, 14 und 17 zu beschränken, kannst du %2$s usw. verwenden."
+
+#: lib/tabs/indexing-tab.php:510
+msgid "How Relevanssi should handle periods between decimals? Replacing with spaces is the default option, but that often leads to the numbers being removed completely. If you need to search decimal numbers a lot, keep the periods."
+msgstr "Wie sollte Relevanssi mit Punkten zwischen Dezimalstellen umgehen? Das Ersetzen durch Leerzeichen ist die Standardoption, dies führt jedoch häufig dazu, dass die Zahlen vollständig entfernt werden. Wenn du häufig nach Dezimalzahlen suchen musst, behalte die Punkte bei."
+
+#: lib/tabs/indexing-tab.php:502
+msgid "Decimal separators"
+msgstr "Dezimaltrennzeichen"
+
+#. Translators: %1$s is 'relevanssi_block_one_letter_searches' and %2$s is
+#. 'false'.
+#: lib/tabs/indexing-tab.php:452
+msgid "To enable one-letter searches, you need to add a filter function on the filter hook %1$s that returns %2$s."
+msgstr "Um die Suche nach einem Buchstaben zu aktivieren, musst du dem Filter-Hook %1$s eine Filterfunktion hinzufügen, die %2$s zurückgibt."
+
+#. Translators: %s is 'highlight'.
+#: lib/tabs/excerpts-tab.php:341
+msgid "Highlights hits when user opens the post from search results. This requires an extra parameter (%s) to the links from the search results pages, which Relevanssi should add automatically."
+msgstr "Treffer werden hervorgehoben, wenn der Benutzer den Beitrag aus den Suchergebnissen öffnet. Dies erfordert einen zusätzlichen Parameter (%s) zu den Links auf den Suchergebnisseiten, den Relevanssi automatisch hinzufügen sollte."
+
+#. Translators: %s is the name of the filter hook.
+#: lib/tabs/searching-tab.php:217
+msgid "If you enable this option, matches where the search query appears in title or content as a phrase will get a weight boost. To adjust the boost, you can use the %s filter hook. See Help for more details."
+msgstr "Wenn du diese Option aktivierst, erhalten Übereinstimmungen, bei denen die Suchabfrage im Titel oder Inhalt als Phrase angezeigt wird, eine höhere Gewichtung. Zum Einstellen der Steigerung kannst du den Filter-Hook %s verwenden. Weitere Informationen findest du in der Hilfe."
+
+#: lib/tabs/searching-tab.php:210 lib/tabs/searching-tab.php:213
+msgid "Give boost to exact matches."
+msgstr "Exakten Übereinstimmungen Auftrieb geben."
+
+#: lib/tabs/searching-tab.php:206
+msgid "Boost exact matches"
+msgstr "Exakte Übereinstimmungen steigern"
+
+#: lib/tabs/logging-tab.php:66
+msgid "If enabled, Relevanssi will log user's IP adress with the queries. Note that this may be illegal where you live, and in EU will create a person registry that falls under the GDPR."
+msgstr "Wenn aktiviert, protokolliert Relevanssi die IP-Adresse des Benutzers mit den Abfragen. Beachte, dass dies in deinem Land möglicherweise illegal ist und in der EU ein Personenregister erstellt, das unter die DSGVO fällt."
+
+#: lib/stopwords.php:324
+msgid "There was a problem, and stopwords couldn't be removed."
+msgstr "Es gab ein Problem und Stoppwörter konnten nicht entfernt werden."
+
+#: lib/stopwords.php:316
+msgid "All stopwords removed! Remember to re-index."
+msgstr "Alle Stoppwörter entfernt! Denke daran, neu zu indexieren."
+
+#. Translators: %s is the stopword.
+#: lib/stopwords.php:157
+msgid "Term '%s' added to stopwords!"
+msgstr "Begriff '%s' zu Stoppwörtern hinzugefügt!"
+
+#. translators: %1$d is the successful entries, %2$d is the total entries.
+#: lib/stopwords.php:137
+msgid "Successfully added %1$d/%2$d terms to stopwords!"
+msgstr "Erfolgreich %1$d/%2$d Begriffe zu den Stoppwörtern hinzugefügt!"
+
+#: lib/interface.php:362
+msgid "users found."
+msgstr "Benutzer gefunden."
+
+#: lib/interface.php:358
+msgid "Counting users..."
+msgstr "Benutzer zählen ..."
+
+#: lib/tabs/searching-tab.php:164
+msgid "Titles"
+msgstr "Titel"
+
+#: lib/tabs/searching-tab.php:156
+msgid "Content"
+msgstr "Inhalt"
+
+#: lib/tabs/excerpts-tab.php:203
+msgid "Just PDF content"
+msgstr "Nur PDF-Inhalt"
+
+#: lib/tabs/excerpts-tab.php:189
+msgid "Enable this option to use PDF content for excerpts."
+msgstr "Aktiviere diese Option, um PDF-Inhalte für Textauszüge zu verwenden."
+
+#: lib/tabs/excerpts-tab.php:393
+msgid "Breakdown of search hits in excerpts"
+msgstr "Aufschlüsselung der Suchtreffer in Textauszügen"
+
+#: lib/tabs/excerpts-tab.php:338
+msgid "Highlight query terms in documents"
+msgstr "Suchbegriffe in Dokumenten hervorheben"
+
+#: lib/interface.php:381
+msgid "we're done!"
+msgstr "Fertig!"
+
+#: lib/interface.php:380
+msgid "less than a minute"
+msgstr "weniger als eine Minute"
+
+#: lib/interface.php:379
+msgid "minutes"
+msgstr "Minuten"
+
+#: lib/interface.php:378
+msgid "minute"
+msgstr "Minute"
+
+#: lib/interface.php:377
+msgid "about an hour and a half"
+msgstr "ungefähr anderthalb Stunden"
+
+#: lib/interface.php:376
+msgid "about an hour"
+msgstr "ungefähr eine Stunde"
+
+#: lib/interface.php:375
+msgid "about"
+msgstr "ungefähr"
+
+#: lib/interface.php:374
+msgid "hours"
+msgstr "Stunden"
+
+#: lib/interface.php:373
+msgid "hour"
+msgstr "Stunde"
+
+#: lib/interface.php:370
+msgid "Are you sure you want to delete all attachment content from the index?"
+msgstr "Möchtest du wirklich den gesamten Anhangsinhalt aus dem Index löschen?"
+
+#: lib/interface.php:369
+msgid "Reload the page to refresh the state of the index."
+msgstr "Lade die Seite neu, um den Status des Index zu aktualisieren."
+
+#: lib/interface.php:368
+msgid "Settings have changed, please save the options before indexing."
+msgstr "Die Einstellungen haben sich geändert. Bitte die Optionen vor der Indexierung speichern."
+
+#: lib/interface.php:367
+msgid "posts excluded."
+msgstr "Beiträge ausgeschlossen."
+
+#: lib/interface.php:366
+msgid "Indexing complete."
+msgstr "Indizierung abgeschlossen."
+
+#: lib/interface.php:364
+msgid "Taxonomy term indexing is disabled."
+msgstr "Taxonomie-Begriff-Indexierung ist deaktiviert."
+
+#: lib/interface.php:361
+msgid "taxonomy terms found."
+msgstr "Taxonomie-Begriffe gefunden."
+
+#: lib/interface.php:360
+msgid "posts found."
+msgstr "Beiträge gefunden."
+
+#: lib/interface.php:357
+msgid "Counting taxonomy terms..."
+msgstr "Taxonomie-Begriffe werden gezählt ..."
+
+#: lib/interface.php:356
+msgid "Counting posts..."
+msgstr "Beiträge werden gezählt ..."
+
+#: lib/interface.php:354
+msgid "Indexing the following taxonomies:"
+msgstr "Indexierung der folgenden Taxonomien:"
+
+#: lib/interface.php:353
+msgid "Indexing users..."
+msgstr "Benutzer indexieren ..."
+
+#: lib/interface.php:352
+msgid "Done."
+msgstr "Fertig."
+
+#: lib/interface.php:351
+msgid "Wiping out the index..."
+msgstr "Index bereiningen ..."
+
+#: lib/interface.php:349
+msgid "Are you sure you want to remove all stopwords?"
+msgstr "Bist du sicher, dass du alle Stoppwörter entfernen möchtest?"
+
+#: lib/interface.php:348
+msgid "Click OK to copy Relevanssi options to all subsites"
+msgstr "Klicke auf OK, um Relevanssi-Optionen auf alle Unterseiten zu kopieren"
+
+#: lib/contextual-help.php:225
+msgid "WordPress.org forum"
+msgstr "WordPress.org-Forum"
+
+#: lib/contextual-help.php:224
+msgid "Plugin knowledge base"
+msgstr "Plugin-Wissensdatenbank"
+
+#: lib/contextual-help.php:223
+msgid "For more information:"
+msgstr "Für weitere Informationen:"
+
+#. Translators: %s is the Knowledge Base URL.
+#: lib/contextual-help.php:190
+msgid "For more details how to fix that issue, see <a href='%s'>WooCommerce tips in Relevanssi user manual</a>."
+msgstr "Weitere Informationen zur Behebung dieses Problems findest du unter <a href='%s'>Tipps zu WooCommerce im Benutzerhandbuch von Relevanssi</a>."
+
+#: lib/contextual-help.php:197
+msgid "If your SKUs include hyphens or other punctuation, do note that Relevanssi replaces most punctuation with spaces. That's going to cause issues with SKU searches."
+msgstr "Beachte, dass, wenn deine SKUs Bindestriche oder andere Interpunktionen enthalten, Relevanssi die meisten Interpunktionen durch Leerzeichen ersetzt. Dies führt zu Problemen bei der Suche nach SKUs."
+
+#: lib/contextual-help.php:195
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#. Translators: %s is '[searchform]'.
+#: lib/contextual-help.php:170
+msgid "If you need a search form on some page on your site, you can use the %s shortcode to print out a basic search form."
+msgstr "Wenn du auf einer Seite deiner Webseite ein Suchformular benötigst, kannst du mit dem Shortcode %s ein einfaches Suchformular ausgeben."
+
+#. Translators: %s is '[noindex]'.
+#: lib/contextual-help.php:168
+msgid "If you have content that you don't want indexed, you can wrap that content in a %s shortcode."
+msgstr "Wenn du Inhalte hast, die nicht indexiert werden sollen, kannst du diese Inhalte in einen %s Shortcode umschließen."
+
+#: lib/contextual-help.php:179
+msgid "Helpful shortcodes"
+msgstr "Hilfreiche Shortcodes"
+
+#. Translators: %1$s is 'relevanssi_punctuation_filter', %2$s is
+#. 'relevanssi_remove_punctuation'.
+#: lib/contextual-help.php:151
+msgid "For more fine-tuned changes, you can use %1$s filter hook to adjust what is replaced with what, and %2$s filter hook to completely override the default punctuation control."
+msgstr "Für genauere Änderungen kannst du den Filter-Hook %1$s verwenden, um anzupassen, was durch was ersetzt wird, und den Filter-Hook %2$s, um die Standard-Interpunktion vollständig zu überschreiben."
+
+#: lib/contextual-help.php:160
+msgid "Relevanssi removes punctuation. Some punctuation is removed, some replaced with spaces. Advanced indexing settings include some of the more common settings people want to change."
+msgstr "Relevanssi entfernt Interpunktionen. Einige Interpunktionen werden entfernt, andere durch Leerzeichen ersetzt. Zu den erweiterten Indexierungseinstellungen gehören einige der Einstellungen, die oft von Anwendern geändert werden."
+
+#: lib/contextual-help.php:158
+msgid "Punctuation"
+msgstr "Interpunktion"
+
+#. Translators: %1$s is 'the_title()', %2$s is 'relevanssi_the_title()'.
+#: lib/contextual-help.php:137
+msgid "In order to see title highlights from Relevanssi, replace %1$s in the search results template with %2$s. It does the same thing, but supports Relevanssi title highlights."
+msgstr "Ersetze %1$s im Suchergebnistemplate durch %2$s, um Hervorhebungen von Titeln von Relevanssi anzuzeigen. Es macht dasselbe, unterstützt jedoch die Hervorhebungen von Titeln von Relevanssi."
+
+#: lib/contextual-help.php:144
+msgid "Title highlights don't appear automatically, because that led to problems with highlights appearing in wrong places and messing up navigation menus, for example."
+msgstr "Hervorhebungen von Titeln werden nicht automatisch angezeigt, da dies zu Problemen mit Hervorhebungen führte, die an falschen Stellen angezeigt wurden und beispielsweise Navigationsmenüs durcheinander brachten."
+
+#: lib/contextual-help.php:142
+msgid "Highlights"
+msgstr "Hervorhebungen"
+
+#. Translators: %s is 'relevanssi_optimize_excerpts'.
+#: lib/contextual-help.php:118
+msgid "If you want Relevanssi to build excerpts faster and don't mind that they may be less than perfect in quality, add a filter that returns true on hook %s."
+msgstr "Wenn du willst, dass Relevanssi Textauszüge schneller erstellt und nicht daran interessiert bist, dass ihre Qualität möglicherweise nicht perfekt ist, füge einen Filter hinzu, der bei dem Hook %s true zurückgibt."
+
+#. Translators: %s is 'relevanssi_disable_shortcodes_excerpt'.
+#: lib/contextual-help.php:116
+msgid "Some shortcode do not work well with Relevanssi excerpt-generation. Relevanssi disables some shortcodes automatically to prevent problems. This can be adjusted with the %s filter hook."
+msgstr "Einige Shortcodes funktionieren nicht gut mit der Textauszugs-Generierung von Relevanssi. Relevanssi deaktiviert einige Shortcodes automatisch, um Probleme zu vermeiden. Dies kann mit dem Filter-Hook %s eingestellt werden."
+
+#. Translators: %1$s is 'relevanssi_pre_excerpt_content', %2$s is
+#. 'relevanssi_excerpt_content'.
+#: lib/contextual-help.php:114
+msgid "If you want more control over what content Relevanssi uses to create the excerpts, you can use the %1$s and %2$s filter hooks to adjust the content."
+msgstr "Wenn du mehr Kontrolle darüber haben willst, welchen Inhalt Relevanssi zum Erstellen der Auszüge verwendet, kannst du die Filter-Hooks %1$s und %2$s verwenden, um den Inhalt anzupassen."
+
+#: lib/contextual-help.php:127
+msgid "Generally, Relevanssi generates the excerpts from post content. If you want to include custom field content in the excerpt-building, this can be done with a simple setting from the excerpt settings."
+msgstr "Im Allgemeinen generiert Relevanssi die Textauszüge aus dem Inhalt des Beitrags. Wenn du individuellen Feldinhalt in die Auszugserstellung aufnehmen willst, kannst du dies mit einer einfachen Einstellung in den Auszugseinstellungen tun."
+
+#. Translators: %s is 'the_excerpt()'.
+#: lib/contextual-help.php:112
+msgid "Custom snippets require that the search results template uses %s to print out the excerpts."
+msgstr "Individuelle Snippets erfordern, dass das Suchergebnistemplate %s verwendet, um die Auszüge auszugeben."
+
+#. Translators: %s is the name of the database table.
+#: lib/contextual-help.php:97
+msgid "The complete logs are stored in the %s database table, where you can access them if you need more information than what the User searches page provides."
+msgstr "Die vollständigen Protokolle werden in der Datenbanktabelle %s gespeichert, auf die du zugreifen kannst, wenn du mehr Informationen benötigst als auf der Seite der Benutzersuche angeboten werden."
+
+#. Translators: %s is 'relevanssi_user_searches_limit'.
+#: lib/contextual-help.php:95
+msgid "By default, the User searches page shows 20 most common keywords. In order to see more, you can adjust the value with the %s filter hook, like this:"
+msgstr "Standardmäßig werden auf der Seite Benutzersuche die 20 häufigsten Stichwörter angezeigt. Um mehr zu sehen, kannst du den Wert mit dem Filter-Hook %s wie folgt anpassen:"
+
+#. Translators: %s is a link to the Relevanssi knowledge base.
+#. Translators: %s is the URL to the Knowledge Base entry.
+#: lib/contextual-help.php:71 lib/contextual-help.php:153
+msgid "For more examples, see <a href='%s'>the related knowledge base posts</a>."
+msgstr "Weitere Beispiele findest du in <a href='%s'>den entsprechenden Beiträgen in der Wissensdatenbank</a>."
+
+#. Translators: %s is 'relevanssi_do_not_index'.
+#: lib/contextual-help.php:69
+msgid "To exclude posts from the index and not just from the search, you can use the %s filter hook. This would not index posts that have a certain taxonomy term:"
+msgstr "Um Beiträge vom Index und nicht nur von der Suche auszuschließen, kannst du den Filter-Hook %s verwenden. Dies würde keine Beiträge indexieren, die einen bestimmten Taxonomiebegriff haben:"
+
+#. Translators: %s is the link to the Codex page.
+#: lib/contextual-help.php:67
+msgid "For more exclusion options, see the Codex documentation for %s. For example, to exclude tag ID 10, use"
+msgstr "Weitere Ausschlussoptionen findest du in der Codex-Dokumentation für %s. Um beispielsweise die Schlagwort-ID 10 auszuschließen, verwende"
+
+#: lib/contextual-help.php:76
+msgid "Exclusions"
+msgstr "Ausschlüsse"
+
+#. Translators: %s is the link to the Codex page.
+#: lib/contextual-help.php:50
+msgid "For all the possible options, see the Codex documentation for %s."
+msgstr "Alle möglichen Optionen findest du in der Codex-Dokumentation für %s."
+
+#: lib/contextual-help.php:60
+msgid "To restrict the search to posts tagged with alfa AND beta, you could add this to the search form:"
+msgstr "Um die Suche auf Beiträge zu beschränken, die mit alpha UND beta gekennzeichnet sind, kannst du dies dem Suchformular hinzufügen:"
+
+#: lib/contextual-help.php:58
+msgid "For example in order to restrict the search to categories 10, 14 and 17, you could add this to the search form:"
+msgstr "Um die Suche beispielsweise auf die Kategorien 10, 14 und 17 zu beschränken, kannst du dies dem Suchformular hinzufügen:"
+
+#: lib/contextual-help.php:57
+msgid "If you want the general search to target all posts, but have a single search form target only certain posts, you can add a hidden input variable to the search form. "
+msgstr "Wenn du willst, dass die allgemeine Suche auf alle Beiträge abzielt, ein einziges Suchformular jedoch nur auf bestimmte Beiträge abzielt, kannst du dem Suchformular eine versteckte Eingabevariable hinzufügen. "
+
+#: lib/contextual-help.php:55
+msgid "Restrictions"
+msgstr "Einschränkungen"
+
+#: lib/contextual-help.php:44
+msgid "It's not usually necessary to adjust the limit from 500, but in some cases performance gains can be achieved by setting a lower limit. We don't suggest going under 200, as low values will make the results worse."
+msgstr "Es ist normalerweise nicht erforderlich, das Limit von 500 anzupassen, aber in einigen Fällen können Leistungssteigerungen durch Festlegen eines niedrigeren Limits erzielt werden. Wir empfehlen nicht, unter 200 zu gehen, da niedrige Werte die Ergebnisse verschlechtern."
+
+#. Translators: %s is 'relevanssi_throttle_limit'.
+#: lib/contextual-help.php:28
+msgid "In order to adjust the throttle limit, you can use the %s filter hook."
+msgstr "Um die Drosselbegrenzung anzupassen, kannst du den Filter-Hook %s verwenden."
+
+#: lib/contextual-help.php:36
+msgid "Inside-word matching is disabled by default, because it increases garbage results that don't really match the search term. If you want to enable it, add the following function to your theme functions.php:"
+msgstr "Der Inside-Word-Abgleich ist standardmäßig deaktiviert, da dadurch unbrauchbare Ergebnisse vermehrt werden, die nicht tatsächlich mit dem Suchbegriff übereinstimmen. Wenn du es aktivieren willst, füge der Datei functions.php deines Themes die folgende Funktion hinzu:"
+
+#. Translators: %1$s is 'orderby', %2$s is the Codex page URL.
+#: lib/contextual-help.php:24
+msgid "To adjust the post order, you can use the %1$s query parameter. With %1$s, you can use multiple layers of different sorting methods. See <a href='%2$s'>WordPress Codex</a> for more details on using arrays for orderby."
+msgstr "Um die Reihenfolge der Beiträge anzupassen, kannst du den Abfrageparameter %1$s verwenden. Mit %1$s kannst du mehrere Ebenen mit unterschiedlichen Sortiermethoden verwenden. Weitere Informationen zur Verwendung von Arrays für orderby findest du unter <a href='%2$s'>WordPress Codex</a>."
+
+#: lib/tabs/stopwords-tab.php:131
+msgid "You can copy the list of stopwords here if you want to back up the list, copy it to a different blog or otherwise need the list."
+msgstr "Du kannst die Liste der Stoppwörter hier kopieren, wenn du die Liste sicherst, in ein anderen Blog kopierst oder die Liste anderweitig benötigst."
+
+#: lib/tabs/stopwords-tab.php:126 lib/tabs/stopwords-tab.php:129
+msgid "Exportable list of stopwords"
+msgstr "Exportierbare Liste von Stoppwörtern"
+
+#: lib/tabs/stopwords-tab.php:89
+msgid "Current stopwords"
+msgstr "Aktuelle Stoppwörter"
+
+#: lib/tabs/synonyms-tab.php:86
+msgid "It's possible to use phrases for the value, but not for the key. <code>dog = \"great dane\"</code> works, but <code>\"great dane\" = dog</code> doesn't."
+msgstr "Es ist möglich, Phrasen für den Wert zu verwenden, nicht jedoch für den Schlüssel. <code>hund = \"deutsche dogge\"</code> funktioniert, <code>\"deutsche dogge\" = hund</code> jedoch nicht."
+
+#: lib/tabs/synonyms-tab.php:84
+msgid "The synonyms are one direction only. If you want both directions, add the synonym again, reversed: <code>hound = dog</code>."
+msgstr "Die Synonyme sind nur unidirektional. Wenn du beide Richtungen willst, füge das Synonym in umgekehrter Reihenfolge erneut hinzu: <code>hound = dog</code>."
+
+#: lib/tabs/synonyms-tab.php:82
+msgid "The format here is <code>key = value</code>. If you add <code>dog = hound</code> to the list of synonyms, searches for <code>dog</code> automatically become a search for <code>dog hound</code> and will thus match to posts that include either <code>dog</code> or <code>hound</code>. This only works in OR searches: in AND searches the synonyms only restrict the search, as now the search only finds posts that contain <strong>both</strong> <code>dog</code> and <code>hound</code>."
+msgstr "Das Format hier ist <code>Schlüssel = Wert</code>. Wenn du der Liste der Synonyme <code>dog = hound</code> hinzufügst, wird die Suche nach <code>dog</code> automatisch zu einer Suche nach <code>dog hound</code> und stimmt somit mit Beiträgen überein, die entweder <code>dog</code> oder <code>hound</code> einschließen. Dies funktioniert nur bei ODER-Suchen: Bei UND-Suchen schränken die Synonyme nur die Suche ein, da bei der Suche nur Beiträge gefunden werden, die <strong>sowohl</strong> <code>dog</code> als auch <code>hound</code> enthalten."
+
+#: lib/tabs/synonyms-tab.php:72
+msgid "Do not go overboard, though, as too many synonyms can make the search confusing: users understand if a search query doesn't match everything, but they get confused if the searches match to unexpected things."
+msgstr "Übertreib es bitte nicht, da zu viele Synonyme die Suche verwirren können: Benutzer verstehen, wenn eine Suchabfrage nicht mit allem übereinstimmt, aber sie werden verwirrt, wenn die Suche mit unerwarteten Dingen übereinstimmt."
+
+#: lib/tabs/synonyms-tab.php:70
+msgid "Add synonyms here to make the searches find better results. If you notice your users frequently misspelling a product name, or for other reasons use many names for one thing, adding synonyms will make the results better."
+msgstr "Füge hier Synonyme hinzu, damit die Suchanfragen bessere Ergebnisse erzielen. Wenn du bemerkst, dass deine Benutzer einen Produktnamen häufig falsch schreiben oder aus anderen Gründen viele Namen für eine Sache verwenden, wird das Hinzufügen von Synonymen die Ergebnisse verbessern."
+
+#. Translators: %1$s starts the link, %2$s closes it.
+#: lib/tabs/attachments-tab.php:22 lib/tabs/redirects-tab.php:22
+msgid "In order to access this and many other delightful Premium features, %1$sbuy Relevanssi Premium here%2$s."
+msgstr "Um auf diese und viele andere reizvolle Premium-Funktionen zuzugreifen, %1$skaufe Relevanssi Premium hier%2$s."
+
+#: lib/tabs/attachments-tab.php:18
+msgid "Indexing attachment content"
+msgstr "Anhangsinhalt indexieren"
+
+#: lib/tabs/indexing-tab.php:520
+msgid "Hide advanced settings"
+msgstr "Erweiterte Einstellungen verbergen"
+
+#: lib/tabs/indexing-tab.php:496
+msgid "How Relevanssi should handle ampersands? Replacing with spaces is generally the best option, but if you talk a lot about D&amp;D, for example, keeping the ampersands is useful."
+msgstr "Wie sollte Relevanssi mit kaufmännischen und-Zeichen umgehen? Das Ersetzen durch Leerzeichen ist im Allgemeinen die beste Option. Wenn du jedoch beispielsweise viel über D&amp;D sprichst, ist es hilfreich, das kaufmännische Und beizubehalten."
+
+#: lib/tabs/indexing-tab.php:488
+msgid "Ampersands"
+msgstr "Kaufmännische und-Zeichen"
+
+#: lib/tabs/indexing-tab.php:482
+msgid "How Relevanssi should handle apostrophes and quotes? It's not possible to keep them; that would lead to problems. Default behaviour is to replace with spaces, but sometimes removing makes sense."
+msgstr "Wie sollte Relevanssi mit Apostrophen und Anführungszeichen umgehen? Es ist nicht möglich, sie zu behalten; das würde zu Problemen führen. Standardmäßig werden diese durch Leerzeichen ersetzt, aber manchmal ist das Entfernen sinnvoll."
+
+#: lib/tabs/indexing-tab.php:475
+msgid "Apostrophes and quotes"
+msgstr "Apostrophen und Anführungszeichen"
+
+#: lib/tabs/indexing-tab.php:469
+msgid "How Relevanssi should handle hyphens and dashes (en and em dashes)? Replacing with spaces is generally the best option, but in some cases removing completely is the best option. Keeping them is rarely the best option."
+msgstr "Wie sollte Relevanssi mit Bindestrichen und Gedankenstrichen (en- und em-Dashes) umgehen? Das Ersetzen durch Leerzeichen ist im Allgemeinen die beste Option, in einigen Fällen ist das vollständige Entfernen jedoch die beste Option. Sie zu behalten ist selten die beste Option."
+
+#: lib/tabs/indexing-tab.php:467 lib/tabs/indexing-tab.php:480
+#: lib/tabs/indexing-tab.php:494 lib/tabs/indexing-tab.php:508
+msgid "Remove"
+msgstr "Entfernen"
+
+#: lib/tabs/indexing-tab.php:466 lib/tabs/indexing-tab.php:479
+#: lib/tabs/indexing-tab.php:493 lib/tabs/indexing-tab.php:507
+msgid "Replace with spaces"
+msgstr "Durch Leerstellen ersetzen"
+
+#: lib/tabs/indexing-tab.php:465 lib/tabs/indexing-tab.php:492
+#: lib/tabs/indexing-tab.php:506
+msgid "Keep"
+msgstr "Behalten"
+
+#: lib/tabs/indexing-tab.php:461
+msgid "Hyphens and dashes"
+msgstr "Bindestriche und Gedankenstriche"
+
+#: lib/tabs/indexing-tab.php:457
+msgid "Here you can adjust how the punctuation is controlled. For more information, see help. Remember that any changes here require reindexing, otherwise searches will fail to find posts they should."
+msgstr "Hier kannst du einstellen, wie die Interpunktion gesteuert wird. Weitere Informationen findest du in der Hilfe. Denke daran, dass Änderungen hier eine Neuindexierung erfordern, da sonst bei der Suche keine Beiträge gefunden werden, die gefunden werden sollten."
+
+#: lib/tabs/indexing-tab.php:456
+msgid "Punctuation control"
+msgstr "Steuerung der Interpunktion"
+
+#: lib/tabs/indexing-tab.php:446
+msgid "Minimum word length"
+msgstr "Minimale Wortlänge"
+
+#: lib/tabs/indexing-tab.php:441
+msgid "Show advanced settings"
+msgstr "Erweiterte Einstellungen anzeigen"
+
+#: lib/tabs/indexing-tab.php:439
+msgid "Advanced indexing settings"
+msgstr "Erweiterte Indexierungseinstellungen"
+
+#: lib/tabs/indexing-tab.php:425
+msgid "If you use shortcodes to include dynamic content, Relevanssi will not keep the index updated, the index will reflect the status of the shortcode content at the moment of indexing."
+msgstr "Wenn du Shortcodes verwendest, um dynamischen Inhalt einzuschließen, hält Relevanssi den Index nicht auf dem neuesten Stand. Der Index gibt den Status des Shortcode-Inhalts zum Zeitpunkt der Indexierung wieder."
+
+#: lib/tabs/indexing-tab.php:424
+msgid "If checked, Relevanssi will expand shortcodes in post content before indexing. Otherwise shortcodes will be stripped."
+msgstr "Wenn diese Option markiert ist, erweitert Relevanssi die Shortcodes im Beitragsinhalt vor der Indexierung. Andernfalls werden Shortcodes entfernt."
+
+#: lib/tabs/indexing-tab.php:422
+msgid "WooCommerce has shortcodes that don't work well with Relevanssi. With WooCommerce, make sure the option is disabled."
+msgstr "WooCommerce verfügt über Shortcodes, die mit Relevanssi nicht gut funktionieren. Stelle bei WooCommerce sicher, dass die Option deaktiviert ist."
+
+#: lib/tabs/indexing-tab.php:419
+msgid "Expand shortcodes when indexing"
+msgstr "Shortcodes bei der Indexierung erweitern"
+
+#: lib/tabs/indexing-tab.php:414
+msgid "Expand shortcodes"
+msgstr "Shortcodes erweitern"
+
+#: lib/tabs/indexing-tab.php:409
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: lib/tabs/indexing-tab.php:402
+msgid "WooCommerce stores the product short description in the excerpt, so it's a good idea to index excerpts."
+msgstr "WooCommerce speichert die Produktkurzbeschreibung im Textauszug, daher ist es eine gute Idee, Textauszüge zu indexieren."
+
+#: lib/tabs/indexing-tab.php:400
+msgid "Relevanssi will find posts by the content in the excerpt."
+msgstr "Relevanssi findet Beiträge nach dem Inhalt des Textauszugs."
+
+#: lib/tabs/indexing-tab.php:398
+msgid "Index the post excerpt"
+msgstr "Den Beitrags-Textauszug indexieren"
+
+#: lib/contextual-help.php:123 lib/tabs/indexing-tab.php:393
+msgid "Excerpts"
+msgstr "Auszüge"
+
+#: lib/tabs/indexing-tab.php:387
+msgid "Searching for the post author display name will return posts by that author."
+msgstr "Wenn du nach dem Anzeigenamen des Beitragsautors suchst, werden Beiträge dieses Autors zurückgegeben."
+
+#: lib/tabs/indexing-tab.php:385
+msgid "Index the post author display name"
+msgstr "Den Anzeigenamen des Beitragsautors indexieren"
+
+#: lib/tabs/indexing-tab.php:380
+msgid "Author display names"
+msgstr "Anzeigenamen des Autors"
+
+#. Translators: %1$s is the 'some' option and %2$s is '_sku'.
+#: lib/tabs/indexing-tab.php:373
+msgid "If you want the SKU included, choose %1$s and enter %2$s. Also see the contextual help for more details."
+msgstr "Wenn die SKU enthalten sein soll, wähle %1$s und gib %2$s ein. Weitere Informationen findest du auch in der kontextbezogenen Hilfe."
+
+#: lib/tabs/indexing-tab.php:369
+msgid "You can use 'relevanssi_index_custom_fields' filter hook to adjust which custom fields are indexed."
+msgstr "Du kannst den Filter-Hook 'relevanssi_index_custom_fields' verwenden, um anzupassen, welche individuellen Felder indexiert werden."
+
+#: lib/tabs/indexing-tab.php:368
+msgid "Enter a comma-separated list of custom fields to include in the index. With Relevanssi Premium, you can also use 'fieldname_%_subfieldname' notation for ACF repeater fields."
+msgstr "Gib eine kommagetrennte Liste von individuellen Feldern ein, die in den Index aufgenommen werden sollen. Mit Relevanssi Premium kannst du auch die Notation 'fieldname_%_subfieldname' für Wiederholungsfelder in ACF verwenden."
+
+#: lib/tabs/indexing-tab.php:349
+msgid "'Some' lets you choose individual custom fields to index."
+msgstr "'Einige' gibt dir die Möglichkeit, einzelne individuelle Felder zum Indexieren auszuwählen."
+
+#: lib/tabs/indexing-tab.php:347
+msgid "'Visible' only includes the custom fields that are visible in the user interface (with names that don't start with an underscore)."
+msgstr "'Sichtbar' enthält nur die individuellen Felder, die in der Benutzeroberfläche sichtbar sind (mit Namen, die nicht mit einem Unterstrich beginnen)."
+
+#: lib/tabs/indexing-tab.php:345
+msgid "'All' indexes all custom fields for posts."
+msgstr "'Alle' indexiert alle individuellen Felder für Beiträge."
+
+#. Translators: %1$s is the 'some' option and %2$s is '_sku'.
+#: lib/tabs/indexing-tab.php:341 lib/tabs/indexing-tab.php:373
+msgid "some"
+msgstr "einige"
+
+#: lib/tabs/indexing-tab.php:340
+msgid "visible"
+msgstr "sichtbar"
+
+#: lib/common.php:1572 lib/tabs/indexing-tab.php:334
+msgid "Custom fields"
+msgstr "Individuelle Felder"
+
+#: lib/tabs/indexing-tab.php:328
+msgid "If you choose to index comments, you can choose if you want to index just comments, or everything including comments and track- and pingbacks."
+msgstr "Wenn du Kommentare indexieren willst, kannst du auswählen, ob du nur Kommentare indexieren willst oder alles, einschließlich Kommentare sowie Track- und Pingbacks."
+
+#: lib/tabs/indexing-tab.php:326
+msgid "comments and pingbacks"
+msgstr "Kommentare und Pingbacks"
+
+#: lib/tabs/indexing-tab.php:325
+msgid "comments"
+msgstr "Kommentare"
+
+#: lib/common.php:1544 lib/tabs/indexing-tab.php:320
+msgid "Comments"
+msgstr "Kommentare"
+
+#: lib/tabs/indexing-tab.php:259
+msgid "Taxonomies"
+msgstr "Taxonomien"
+
+#: lib/tabs/indexing-tab.php:176
+msgid "Excluded from search?"
+msgstr "Von der Suche ausgeschlossen?"
+
+#: lib/tabs/indexing-tab.php:166
+msgid "Post types"
+msgstr "Inhaltstypen"
+
+#: lib/tabs/indexing-tab.php:162
+msgid "Any changes to the settings on this page require reindexing before they take effect."
+msgstr "Änderungen an den Einstellungen auf dieser Seite müssen neu indexiert werden, bevor sie wirksam werden."
+
+#: lib/tabs/indexing-tab.php:155
+msgid "WARNING: You've chosen no post types to index. Nothing will be indexed. Choose some post types to index."
+msgstr "WARNUNG: Du hast keine zu indexierenden Beitragstypen ausgewählt. Es wird nichts indexiert. Wähle einige zu indexierende Beitragstypen aus."
+
+#: lib/tabs/indexing-tab.php:143
+msgid "is the lowest post ID indexed."
+msgstr "ist die niedrigste indexierte Beitrags-ID."
+
+#: lib/tabs/indexing-tab.php:139
+msgid "taxonomy term in the index."
+msgid_plural "taxonomy terms in the index."
+msgstr[0] "Taxonomiebegriff im Index."
+msgstr[1] "Taxonomiebegriffe im Index."
+
+#: lib/tabs/indexing-tab.php:138
+msgid "user in the index."
+msgid_plural "users in the index."
+msgstr[0] "Benutzer im Index."
+msgstr[1] "Benutzer im Index."
+
+#: lib/tabs/indexing-tab.php:129
+msgid "some time"
+msgstr "einige Zeit"
+
+#: lib/tabs/indexing-tab.php:129
+msgid "Time remaining"
+msgstr "Verbleibende Zeit"
+
+#: lib/tabs/indexing-tab.php:129
+msgid "Time elapsed"
+msgstr "Verstrichene Zeit"
+
+#: lib/tabs/indexing-tab.php:122
+msgid "This doesn't index any taxonomy terms or users."
+msgstr "Dies indexiert keine Taxonomiebegriffe oder Benutzer."
+
+#. Translators: %s is "Build the index".
+#: lib/tabs/indexing-tab.php:119
+msgid "%s doesn't empty the index and only indexes those posts that are not indexed. You can use it if you have to interrupt building the index."
+msgstr "%s leert den Index nicht und indexiert nur die Beiträge, die nicht indexiert sind. Du kannst es verwenden, wenn du die Erstellung des Index unterbrechen musst."
+
+#. Translators: %s is "Build the index".
+#: lib/tabs/indexing-tab.php:117
+msgid "%s empties the existing index and rebuilds it from scratch."
+msgstr "%s leert den vorhandenen Index und baut ihn von Grund auf neu auf."
+
+#. Translators: %s is "Build the index".
+#: lib/tabs/indexing-tab.php:112 lib/tabs/indexing-tab.php:119
+msgid "Index unindexed posts"
+msgstr "Nicht indexierte Beiträge indexieren"
+
+#: lib/tabs/excerpts-tab.php:382
+msgid "Breakdown of search results"
+msgstr "Aufschlüsselung der Suchergebnisse"
+
+#: lib/tabs/excerpts-tab.php:346
+msgid "Highlight in comments"
+msgstr "Hervorheben in Kommentaren"
+
+#: lib/tabs/excerpts-tab.php:327
+msgid "Highlight in documents"
+msgstr "Hervorhebung in Dokumenten"
+
+#. Translators: %1$s is 'the_title()', %2$s is 'relevanssi_the_title()'.
+#: lib/tabs/excerpts-tab.php:322
+msgid "Highlights in titles require changes to the search results template. You need to replace %1$s in the search results template with %2$s. For more information, see the contextual help."
+msgstr "Hervorhebungen in Titeln erfordern Änderungen am Suchergebnistemplate. Du musst %1$s im Suchergebnistemplate durch %2$s ersetzen. Weitere Informationen findest du in der Kontexthilfe."
+
+#: lib/tabs/excerpts-tab.php:319
+msgid "Highlight query terms in titles"
+msgstr "Suchbegriffe in Titeln hervorheben"
+
+#: lib/tabs/excerpts-tab.php:308
+msgid "Highlight in titles"
+msgstr "Hervorhebung in Titeln"
+
+#. Translators: %s is a <span> tag.
+#: lib/tabs/excerpts-tab.php:303
+msgid "The highlights will be wrapped in a %s with this class."
+msgstr "Die Hervorhebungen werden mit dieser Klasse von einem %s umschlossen."
+
+#. Translators: %s is a <span> tag.
+#: lib/tabs/excerpts-tab.php:287
+msgid "The highlights will be wrapped in a %s with this CSS in the style parameter."
+msgstr "Die Hervorhebungen werden mit diesem CSS im Stil-Parameter von einem %s umschlossen."
+
+#: lib/tabs/excerpts-tab.php:243 lib/tabs/excerpts-tab.php:406
+msgid "Requires custom snippets to work."
+msgstr "Erfordert individuelle Snippets, um zu funktionieren."
+
+#: lib/tabs/excerpts-tab.php:224
+msgid "Highlight type"
+msgstr "Hervorhebungs-Typ"
+
+#: lib/tabs/excerpts-tab.php:205
+msgid "None selected"
+msgstr "Nichts ausgewählt"
+
+#: lib/tabs/excerpts-tab.php:199
+msgid "all custom fields"
+msgstr "alle individuellen Felder"
+
+#: lib/tabs/excerpts-tab.php:197
+msgid "all visible custom fields"
+msgstr "alle sichtbaren individuellen Felder"
+
+#: lib/tabs/excerpts-tab.php:194
+msgid "Current custom field setting"
+msgstr "Aktuelle Einstellung für individuelles Feld"
+
+#: lib/tabs/excerpts-tab.php:186
+msgid "Use the custom fields setting for indexing for excerpt-making as well. Enabling this option will show custom field content in Relevanssi-generated excerpts."
+msgstr "Verwende die Einstellung für individuelle Felder für die Indexierung auch für die Erstellung von Textauszügen. Durch das Aktivieren dieser Option werden individuelle Feldinhalte in von Relevanssi generierten Textauszügen angezeigt."
+
+#: lib/tabs/excerpts-tab.php:184
+msgid "Use custom field content for building excerpts"
+msgstr "Individuelle Feldinhalte zum Erstellen von Textauszügen verwenden"
+
+#: lib/tabs/excerpts-tab.php:173
+msgid "Use custom fields for excerpts"
+msgstr "Individuelle Felder für Textauszüge verwenden"
+
+#: lib/tabs/excerpts-tab.php:162
+msgid "List all tags you want to allow in excerpts. For example: &lt;p&gt;&lt;a&gt;&lt;strong&gt;."
+msgstr "Liste alle Schlagwörter auf, die du in Textauszügen zulassen willst. Beispielsweise: &lt;p&gt;&lt;a&gt;&lt;strong&gt;."
+
+#: lib/tabs/excerpts-tab.php:136
+msgid "Using words is much faster than characters. Don't use characters, unless you have a really good reason and your posts are short."
+msgstr "Das Verwenden von Wörtern ist viel schneller als das Verwenden von Zeichen. Verwende keine Zeichen, es sei denn, du hast einen wirklich guten Grund und deine Beiträge sind kurz."
+
+#: lib/tabs/excerpts-tab.php:96
+msgid "Only enable this if you actually use the custom excerpts."
+msgstr "Aktiviere dies nur, wenn du die individuellen Textauszüge tatsächlich verwendest."
+
+#: lib/tabs/excerpts-tab.php:89
+msgid "Custom search result snippets"
+msgstr "Individuelle Suchergebnis-Snippets"
+
+#: lib/tabs/searching-tab.php:400
+msgid "With Relevanssi Premium, it's better to use the check box on post edit pages. That will remove the posts completely from the index, and will work with multisite searches unlike this setting."
+msgstr "Bei Relevanssi Premium ist es besser, das Kontrollkästchen auf den Bearbeitungsseiten der Beiträge zu verwenden. Dadurch werden die Posts vollständig aus dem Index entfernt. Anders als bei dieser Einstellung werden Multisite-Suchvorgänge funktionieren."
+
+#: lib/tabs/searching-tab.php:398
+msgid "Enter a comma-separated list of post or page ID's to exclude those pages from the search results."
+msgstr "Gib eine kommagetrennte Liste von Beitrags- oder Seiten-IDs ein, um diese Seiten aus den Suchergebnissen auszuschließen."
+
+#: lib/tabs/searching-tab.php:394
+msgid "Post exclusion"
+msgstr "Beitrag-Ausschluss"
+
+#: lib/tabs/searching-tab.php:389
+msgid "Posts in these categories are not included in search results. To exclude the posts completely from the index, see Help."
+msgstr "Beiträge in diesen Kategorien sind nicht in den Suchergebnissen enthalten. Informationen zum vollständigen Ausschließen der Beiträge aus dem Index findest du in der Hilfe."
+
+#: lib/tabs/searching-tab.php:363 lib/tabs/searching-tab.php:369
+msgid "Category exclusion"
+msgstr "Kategorie-Ausschluss"
+
+#: lib/tabs/searching-tab.php:358
+msgid "You can restrict search results to a category for all searches. For restricting on a per-search basis and more options (eg. tag restrictions), see Help."
+msgstr "Du kannst die Suchergebnisse für alle Suchvorgänge auf eine Kategorie beschränken. Informationen zu Einschränkungen pro Suche und zu weiteren Optionen (z.&nbsp;B. Schlagwort-Einschränkungen) findest du in der Hilfe."
+
+#: lib/tabs/searching-tab.php:332 lib/tabs/searching-tab.php:338
+msgid "Category restriction"
+msgstr "Kategoriebeschränkung"
+
+#: lib/tabs/searching-tab.php:323
+msgid "If this option is checked, Relevanssi will limit search results to at most 500 results per term. This will improve performance, but may cause some relevant documents to go unfound. See Help for more details."
+msgstr "Wenn diese Option markiert ist, beschränkt Relevanssi die Suchergebnisse auf höchstens 500 Ergebnisse pro Begriff. Dies verbessert die Leistung, kann jedoch dazu führen, dass einige relevante Dokumente nicht mehr gefunden werden. Weitere Informationen findest du in der Hilfe."
+
+#: lib/tabs/searching-tab.php:321
+msgid "Your database is so small that you don't need to enable this."
+msgstr "Deine Datenbank ist so klein, dass du dies nicht aktivieren musst."
+
+#: lib/tabs/searching-tab.php:314 lib/tabs/searching-tab.php:317
+msgid "Throttle searches."
+msgstr "Suche drosseln."
+
+#: lib/tabs/searching-tab.php:309
+msgid "Throttle searches"
+msgstr "Suchen drosseln"
+
+#: lib/tabs/searching-tab.php:296
+msgid "You probably should uncheck this option, because you've set Relevanssi to index the following non-public post types:"
+msgstr "Du sollten diese Option wahrscheinlich deaktivieren, da du Relevanssi so eingestellt hast, dass die folgenden nicht öffentlichen Beitragstypen indexiert werden:"
+
+#: lib/tabs/searching-tab.php:284
+msgid "If checked, Relevanssi won't display posts of custom post types that have 'exclude_from_search' set to true."
+msgstr "Wenn markiert, zeigt Relevanssi keine Beiträge individueller Inhaltstypen an, für die 'exclude_from_search' auf true gesetzt ist."
+
+#. Translators: %s is 'exclude_from_search'.
+#: lib/tabs/searching-tab.php:282
+msgid "Respect %s for custom post types"
+msgstr "%s für individuelle Inhaltstypen respektieren."
+
+#. Translators: %s is 'exclude_from_search'.
+#: lib/tabs/searching-tab.php:274
+msgid "Respect %s"
+msgstr "%s respektieren"
+
+#: lib/tabs/searching-tab.php:268
+msgid "If checked, Relevanssi will be used for searches in the admin interface. The page search doesn't use Relevanssi, because WordPress works like that."
+msgstr "Wenn markiert, wird Relevanssi für Suchvorgänge in der Administrationsoberfläche verwendet. Die Seitensuche verwendet kein Relevanssi, da WordPress so funktioniert."
+
+#: lib/tabs/searching-tab.php:262 lib/tabs/searching-tab.php:265
+msgid "Use Relevanssi for admin searches."
+msgstr "Relevanssi für die Admin-Suchen verwenden."
+
+#: lib/init.php:234 lib/init.php:235 lib/tabs/searching-tab.php:258
+msgid "Admin search"
+msgstr "Admin-Suche"
+
+#: lib/tabs/searching-tab.php:252
+msgid "By default Polylang restricts the search to the current language. Enabling this option will lift this restriction."
+msgstr "Standardmäßig beschränkt Polylang die Suche auf die aktuelle Sprache. Durch Aktivieren dieser Option wird diese Einschränkung aufgehoben."
+
+#: lib/tabs/searching-tab.php:246 lib/tabs/searching-tab.php:249
+msgid "Allow results from all languages."
+msgstr "Ergebnisse aus allen Sprachen zulassen."
+
+#: lib/tabs/searching-tab.php:242
+msgid "Polylang"
+msgstr "Polylang"
+
+#: lib/tabs/searching-tab.php:235
+msgid "Enabling this option will restrict the results to the currently active language. If the option is disabled, results will include posts in all languages."
+msgstr "Durch Aktivieren dieser Option werden die Ergebnisse auf die aktuell aktive Sprache beschränkt. Wenn die Option deaktiviert ist, enthalten die Ergebnisse Beiträge in allen Sprachen."
+
+#: lib/tabs/searching-tab.php:225
+msgid "WPML"
+msgstr "WPML"
+
+#: lib/tabs/searching-tab.php:146
+msgid "All the weights in the table are multipliers. To increase the weight of an element, use a higher number. To make an element less significant, use a number lower than 1."
+msgstr "Alle Gewichtungen in der Tabelle sind Multiplikatoren. Verwende eine höhere Zahl, um das Gewichtung eines Elements zu erhöhen. Verwende eine Zahl unter 1, um die Bedeutung eines Elements zu verringern."
+
+#: lib/tabs/searching-tab.php:138
+msgid "Partial words also includes cases where the word in the index begins or ends with the search term (searching for 'ana' will match 'anaconda' or 'banana', but not 'banal'). See Help, if you want to make Relevanssi match also inside words."
+msgstr "Teilwörter umfassen auch Fälle, in denen das Wort im Index mit dem Suchbegriff beginnt oder endet (die Suche nach 'ana' entspricht 'anaconda' oder 'banana', jedoch nicht 'banal'). Siehe Hilfe, wenn Sie willst, dass für Relevanssi auch Teilen innerhalb von Wörtern übereinstimmen."
+
+#: lib/tabs/searching-tab.php:137
+msgid "Whole words means Relevanssi only finds posts that include the whole search term."
+msgstr "Ganze Wörter bedeuten, dass Relevanssi nur Beiträge findet, die den gesamten Suchbegriff enthalten."
+
+#: lib/tabs/searching-tab.php:131
+msgid "Partial words if no hits for whole words"
+msgstr "Teilwörter, wenn keine Treffer für ganze Wörter gefunden werden"
+
+#. Translators: %1$s is the "partial words if no hits" option and %2$s is the
+#. "partial words" option.
+#: lib/tabs/searching-tab.php:130 lib/tabs/searching-tab.php:135
+msgid "Partial words"
+msgstr "Teilwörter"
+
+#: lib/tabs/searching-tab.php:129
+msgid "Whole words"
+msgstr "Ganze Wörter"
+
+#: lib/tabs/searching-tab.php:125
+msgid "Keyword matching"
+msgstr "Stichwort-Übereinstimmung"
+
+#. Translators: name of the query variable.
+#: lib/tabs/searching-tab.php:117
+msgid "If you want to override this or use multi-layered ordering (eg. first order by relevance, but sort ties by post title), you can use the %s query variable. See Help for more information."
+msgstr "Wenn du diese überschreiben oder eine mehrschichtige Reihenfolge verwenden willst (z.&nbsp;B. erste Ordnung nach Relevanz, aber Verknüpfungen nach Beitragstitel sortieren), kannst du die Abfrage-Variable %s verwenden. Weitere Informationen findest du in der Hilfe."
+
+#: lib/tabs/searching-tab.php:109
+msgid "Default order"
+msgstr "Standard-Reihenfolge"
+
+#: lib/tabs/searching-tab.php:104
+msgid "By default, if AND search fails to find any results, Relevanssi will switch the operator to OR and run the search again. You can prevent that by checking this option."
+msgstr "Wenn die UND-Suche keine Ergebnisse findet, schaltet Relevanssi den Operator standardmäßig auf ODER und führt die Suche erneut aus. Du kannst dies verhindern, indem du diese Option aktivierst."
+
+#: lib/tabs/searching-tab.php:98 lib/tabs/searching-tab.php:101
+msgid "Disable the OR fallback."
+msgstr "Den ODER-Fallback deaktivieren."
+
+#: lib/tabs/searching-tab.php:94
+msgid "Fallback to OR"
+msgstr "Fallback zu ODER"
+
+#. Translators: %1$s is the name of the 'operator' query variable, %2$s is an
+#. example url.
+#: lib/tabs/searching-tab.php:87
+msgid "You can override this setting with the %1$s query parameter, like this: %2$s"
+msgstr "Du kannst diese Einstellung mit dem Abfrageparameter %1$s wie folgt überschreiben: %2$s"
+
+#: lib/tabs/searching-tab.php:83
+msgid "This setting determines the default operator for the search."
+msgstr "Diese Einstellung bestimmt den Standardoperator für die Suche."
+
+#: lib/tabs/searching-tab.php:76
+msgid "Default operator"
+msgstr "Standardoperator"
+
+#. Translators: %d is the setting for no trim (probably 0).
+#: lib/tabs/logging-tab.php:98
+msgid "Set to %d for no trimming."
+msgstr "Auf %d setzen, um nicht zu trimmen."
+
+#: lib/tabs/logging-tab.php:89
+msgid "How many days of logs to keep in the database."
+msgstr "Wie viele Tage Protokolle in der Datenbank gespeichert werden."
+
+#: lib/tabs/logging-tab.php:85
+msgid "Trim logs"
+msgstr "Protokolle begrenzen"
+
+#: lib/tabs/logging-tab.php:71
+msgid "Exclude users"
+msgstr "Benutzer ausschließen"
+
+#: lib/tabs/logging-tab.php:56
+msgid "Log user IP"
+msgstr "Benutzer-IP protokollieren"
+
+#. Translators: %1$s is the name of the "User searches" page, %2$s is the name
+#. of the database table.
+#: lib/tabs/logging-tab.php:46
+msgid "If enabled, Relevanssi will log user queries. The logs can be examined under '%1$s' on the Dashboard admin menu and are stored in the %2$s database table."
+msgstr "Wenn aktiviert, protokolliert Relevanssi Benutzeranfragen. Die Protokolle können im Dashboard-Administrator-Menü unter '%1$s' überprüft und sie werden in der Datenbanktabelle %2$s gespeichert."
+
+#: lib/tabs/logging-tab.php:32
+msgid "Enable logs"
+msgstr "Protokolle aktivieren"
+
+#: lib/tabs/overview-tab.php:123
+msgid "Hide Relevanssi branding from the User Searches page on a client installation"
+msgstr "Relevanssi-Branding auf einer Kunden-Installation von der Seite Benutzersuche ausblenden."
+
+#: lib/tabs/overview-tab.php:122
+msgid "Index and search any columns in the wp_posts database"
+msgstr "Alle Spalten in der Datenbank wp_posts indexieren und durchsuchen"
+
+#: lib/tabs/overview-tab.php:121
+msgid "Internal link anchors can be search terms for the target posts"
+msgstr "Interne Link-Anker können Suchbegriffe für die Zielbeiträge sein"
+
+#: lib/tabs/overview-tab.php:120
+msgid "Adjust weights separately for each post type and taxonomy"
+msgstr "Gewichtungen für jeden Inhaltstyp und jede Taxonomie separat anpassen"
+
+#: lib/tabs/overview-tab.php:119
+msgid "WP CLI commands"
+msgstr "WP-CLI-Befehle"
+
+#: lib/tabs/overview-tab.php:118
+msgid "Multisite searches across many subsites"
+msgstr "Multisite-Suche in vielen Unterwebsites"
+
+#: lib/tabs/overview-tab.php:117
+msgid "Index and search taxonomy term pages"
+msgstr "Taxonomie-Begriffsseiten durchsuchen und indexieren"
+
+#: lib/tabs/overview-tab.php:116
+msgid "Index and search user profile pages"
+msgstr "Benutzerprofilseiten durchsuchen und indexieren"
+
+#: lib/tabs/overview-tab.php:114
+msgid "PDF content indexing"
+msgstr "PDF-Inhalte indexieren"
+
+#: lib/tabs/overview-tab.php:112
+msgid "Here are some improvements Relevanssi Premium offers:"
+msgstr "Hier einige Verbesserungen, die Relevanssi Premium bietet:"
+
+#. Translators: %1$s is the coupon code, %2$s is the year it expires.
+#: lib/tabs/overview-tab.php:111
+msgid "use coupon code %1$s for 20%% discount (valid at least until the end of %2$s)"
+msgstr "verwende den Gutscheincode %1$s für 20%% Rabatt (gültig mindestens bis Ende %2$s)"
+
+#: lib/tabs/overview-tab.php:109
+msgid "Buy Relevanssi Premium now"
+msgstr "Jetzt Relevanssi Premium kaufen"
+
+#. Translators: %1$s opens the link, %2$s closes the link.
+#: lib/tabs/overview-tab.php:92
+msgid "%1$sRelevanssi knowledge base%2$s has lots of information about advanced Relevanssi use, including plenty of code samples."
+msgstr "Die %1$sRelevanssi-Wissensdatenbank%2$s enthält viele Informationen zur erweiterten Verwendung von Relevanssi, einschließlich zahlreicher Codebeispiele."
+
+#: lib/tabs/overview-tab.php:90
+msgid "Relevanssi uses the WordPress contextual help. Click 'Help' on the top right corner for more information on many Relevanssi topics."
+msgstr "Relevanssi verwendet die kontextbezogene Hilfe von WordPress. Klicke oben rechts auf 'Hilfe', um weitere Informationen zu vielen Relevannsi-Themen zu erhalten."
+
+#: lib/tabs/overview-tab.php:88
+msgid "For more information"
+msgstr "Für mehr Informationen"
+
+#: lib/tabs/overview-tab.php:70
+msgid "Relevanssi doesn't have a separate search widget. Instead, Relevanssi uses the default search widget. Any standard search form will do!"
+msgstr "Relevanssi hat kein separates Such-Widget. Stattdessen verwendet Relevanssi das Standard-Such-Widget. Jedes Standard-Suchformular reicht aus!"
+
+#: lib/tabs/overview-tab.php:67
+msgid "That's about it! Now you should have Relevanssi up and running. The rest of the options is mostly fine-tuning."
+msgstr "Das ist alles! Jetzt sollte Relevanssi betriebsbereit sein. Der Rest der Optionen ist größtenteils Feinabstimmung."
+
+#: lib/tabs/overview-tab.php:64
+msgid "There are couple of options related to that, so if you want highlighting in the results, you can adjust the styles for that to suit the look of your site."
+msgstr "Diesbezüglich gibt es einige Optionen. Wenn du also die Ergebnisse hervorheben möchtest, kannst du die Stile entsprechend dem Erscheinungsbild deiner Website anpassen."
+
+#. Translators: %1$s opens the link, %2$s is the anchor text, %3$s closes the
+#. link.
+#: lib/tabs/overview-tab.php:63
+msgid "The next step is the %1$s%2$s%3$s tab, where you can enable the custom excerpts that show the relevant part of post in the search results pages."
+msgstr "Der nächste Schritt ist der Tab %1$s%2$s%3$s, auf der du die individuellen Textauszüge aktivieren kannst, die den relevanten Teil des Beitrags auf den Suchergebnisseiten anzeigen."
+
+#. Translators: %1$s opens the link, %2$s is the anchor text, %3$s closes the
+#. link.
+#: lib/tabs/overview-tab.php:59
+msgid "On the %1$s%2$s%3$s tab, choose whether you want the default operator to be AND (less results, but more precise) or OR (more results, less precise)."
+msgstr "Wähle im Tab %1$s%2$s%3$s aus, ob der Standardoperator UND (weniger Ergebnisse, aber genauer) oder ODER (mehr Ergebnisse, weniger genau) sein soll."
+
+#: lib/tabs/overview-tab.php:55
+msgid "Great, you already have an index!"
+msgstr "Großartig, du hast bereits einen Index!"
+
+#: lib/tabs/overview-tab.php:52
+msgid "Then just save the options and build the index. First time you have to do it manually, but after that, it's fully automatic: all changes are reflected in the index without reindexing. (That said, it's a good idea to rebuild the index once a year.)"
+msgstr "Speichere dann einfach die Optionen und erstelle den Index. Das erste Mal musst du es manuell tun, aber danach ist es vollautomatisch: Alle Änderungen werden ohne Neuindexierung im Index abgebildet. (Trotzdem ist es eine gute Idee, den Index einmal im Jahr neu zu erstellen.)"
+
+#. Translators: %s is '_sku'.
+#: lib/tabs/overview-tab.php:51
+msgid "Do you use custom fields to store content you want included? If so, add those too. WooCommerce user? You probably want to include %s."
+msgstr "Verwendest du individuelle Felder, um Inhalte zu speichern, die du aufnehmen willst? Wenn ja, füge diese ebenfalls hinzu. Bist du WooCommerce Benutzer? Du willst wahrscheinlich %s einschließen."
+
+#: lib/tabs/overview-tab.php:49
+msgid "Make sure the post types you want to include in the index are indexed."
+msgstr "Stelle sicher, dass die Beitragstypen, die du in den Index aufnehmen willst, indexiert sind."
+
+#: lib/tabs/overview-tab.php:48
+msgid "You need to check at least the following options:"
+msgstr "Du musst mindestens die folgenden Optionen überprüfen:"
+
+#. Translators: %1$s opens the link, %2$s is the anchor text, %3$s closes the
+#. link.
+#: lib/tabs/overview-tab.php:47
+msgid "Now, you need an index. Head over to the %1$s%2$s%3$s tab to set up the basic indexing options and to build the index."
+msgstr "Jetzt brauchst du einen Index. Gehe zum Tab %1$s%2$s%3$s, um die grundlegenden Indexierungsoptionen einzurichten und den Index zu erstellen."
+
+#: lib/tabs/overview-tab.php:43
+msgid "You've already installed Relevanssi. That's a great first step towards good search experience!"
+msgstr "Du hast Relevanssi bereits installiert. Das ist ein großartiger erster Schritt in Richtung einer guten Sucherfahrung!"
+
+#: lib/tabs/overview-tab.php:41
+msgid "Getting started"
+msgstr "Erste Schritte"
+
+#: lib/tabs/overview-tab.php:22
+msgid "Welcome to Relevanssi!"
+msgstr "Willkommen bei Relevanssi!"
+
+#. Translators: %1$s opens the link, %2$s is the anchor text, %3$s closes the
+#. link.
+#: lib/interface.php:212 lib/tabs/overview-tab.php:63
+msgid "Excerpts and highlights"
+msgstr "Textauszüge und Hervorhebungen"
+
+#: lib/interface.php:205
+msgid "Logging"
+msgstr "Protokoll"
+
+#. Translators: %1$s opens the link, %2$s is the anchor text, %3$s closes the
+#. link.
+#: lib/contextual-help.php:33 lib/interface.php:198
+#: lib/tabs/overview-tab.php:59
+msgid "Searching"
+msgstr "Suche ..."
+
+#: lib/interface.php:191
+msgid "Attachments"
+msgstr "Anhänge"
+
+#. Translators: %1$s opens the link, %2$s is the anchor text, %3$s closes the
+#. link.
+#: lib/interface.php:184 lib/tabs/overview-tab.php:47
+msgid "Indexing"
+msgstr "Indexierung"
+
+#: lib/interface.php:177
+msgid "Overview"
+msgstr "Übersicht"
+
+#: lib/common.php:1150
+msgid "Stopword Candidates"
+msgstr "Stoppwort-Kandidaten"
+
+#. Translators: %s is the stopword.
+#: lib/stopwords.php:374
+msgid "Couldn't remove term '%s' from stopwords!"
+msgstr "Der Begriff '%s' konnte nicht aus den Stoppwörtern entfernt werden!"
+
+#. Translators: %s is the stopword.
+#: lib/stopwords.php:361
+msgid "Term '%s' removed from stopwords! Re-index to get it back to index."
+msgstr "Begriff '%s' aus Stoppwörtern entfernt! Indexiere erneut, um ihn dem Index wieder zuzufügen."
+
+#: lib/interface.php:139
+msgid "Clearing the logs failed."
+msgstr "Das Löschen der Protokolle ist fehlgeschlagen."
+
+#: lib/interface.php:137
+msgid "Logs clear!"
+msgstr "Protokolle leer!"
+
+#: lib/user-searches.php:44
+msgid "Enable query logging to see stats here."
+msgstr "Aktiviere die Abfrageprotokollierung, um hier Statistiken anzuzeigen."
+
+#: lib/init.php:464
+msgid "Go Premium!"
+msgstr "Auf Premium wechseln!"
+
+#: lib/init.php:461
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: lib/init.php:137
+msgid "Multibyte string functions are not available. Relevanssi may not work well without them. Please install (or ask your host to install) the mbstring extension."
+msgstr "Multibyte-String-Funktionen sind nicht verfügbar. Relevanssi funktioniert möglicherweise nicht gut ohne sie. Bitte installiere die Erweiterung mbstring (oder bitte deinen Host, sie zu installieren)."
+
+#. translators: Number of posts indexed on this go, total number of posts
+#. indexed so far, number of posts processed on this go, total number of posts
+#. to process.
+#: lib/admin-ajax.php:113
+msgid "Indexed %1$d post (total %2$d), processed %3$d / %4$d."
+msgid_plural "Indexed %1$d posts (total %2$d), processed %3$d / %4$d."
+msgstr[0] "%1$d Beiträge indexiert (gesamt %2$d), verarbeitet %3$d/%4$d."
+msgstr[1] ""
+
+#: lib/interface.php:365
+msgid "User indexing is disabled."
+msgstr "Benutzer-Indexierung ist deaktiviert."
+
+#. Author URI of the plugin
+msgid "http://www.mikkosaari.fi/"
+msgstr "http://www.mikkosaari.fi/"
+
+#. Author of the plugin
+msgid "Mikko Saari"
+msgstr "Mikko Saari"
+
+#. Description of the plugin
+msgid "This plugin replaces WordPress search with a relevance-sorting search."
+msgstr "Dieses Plugin ersetzt die Suchfunktion von WordPress mit einer nach Relevanz gewichteten und sortierbaren Suchfunktion."
+
+#. Plugin URI of the plugin
+msgid "https://www.relevanssi.com/"
+msgstr "https://www.relevanssi.com/"
+
+#. Plugin Name of the plugin
+msgid "Relevanssi"
+msgstr "Relevanssi"
+
+#: lib/interface.php:456
+msgid "Category weight"
+msgstr "Kategorie-Gewichtung"
+
+#: lib/interface.php:448
+msgid "Tag weight"
+msgstr "Stichwort-Gewichtung"
+
+#: lib/tabs/stopwords-tab.php:111
+msgid "Remove all stopwords"
+msgstr "Alle Stoppwörter entfernen"
+
+#: lib/tabs/stopwords-tab.php:84
+msgid "Here's a list of stopwords in the database. Click a word to remove it from stopwords. Removing stopwords won't automatically return them to index, so you need to re-index all posts after removing stopwords to get those words back to index."
+msgstr "Hier ist eine Liste der Stoppwörter in der Datenbank. Klicke auf ein Wort, um es aus den Stoppwörtern zu entfernen. Durch das Entfernen von Stoppwörtern werden diese nicht automatisch in den Index zurückgeführt. Du musst daher alle Beiträge nach dem Entfernen von Stoppwörtern neu indexieren, um diese Wörter wieder in den Index aufzunehmen."
+
+#: lib/tabs/stopwords-tab.php:80
+msgid "Add"
+msgstr "Hinzufügen"
+
+#: lib/tabs/stopwords-tab.php:76
+msgid "Stopword(s) to add"
+msgstr "Stoppwort(e) zum Hinzufügen"
+
+#: lib/tabs/stopwords-tab.php:67
+msgid "Enter a word here to add it to the list of stopwords. The word will automatically be removed from the index, so re-indexing is not necessary. You can enter many words at the same time, separate words with commas."
+msgstr "Gib hier ein Wort ein, um es der Liste der Stoppwörter hinzuzufügen. Das Wort wird automatisch aus dem Index entfernt, sodass eine erneute Indexierung nicht erforderlich ist. Du kannst viele Wörter gleichzeitig eingeben. Trenne Wörter durch Kommas."
+
+#: lib/tabs/indexing-tab.php:366
+msgid "Custom fields to index"
+msgstr "Individuelle Felder indexieren"
+
+#: lib/tabs/indexing-tab.php:339
+msgid "all"
+msgstr "Alle"
+
+#: lib/tabs/indexing-tab.php:324 lib/tabs/indexing-tab.php:338
+msgid "none"
+msgstr "keine"
+
+#: lib/tabs/indexing-tab.php:450
+msgid "Words shorter than this many letters will not be indexed."
+msgstr "Wörter, die kürzer als so viele Buchstaben sind, werden nicht indexiert."
+
+#: lib/tabs/indexing-tab.php:313
+msgid "If you check a taxonomy here, the terms for that taxonomy are indexed with the posts. If you for example choose \"post_tag\", searching for a tag will find all posts that have the tag."
+msgstr "Wenn du hier eine Taxonomie überprüfen, werden die Begriffe für diese Taxonomie mit den Beiträgen indexiert. Wenn du beispielsweise \"post_tag\" auswählst, werden bei der Suche nach einem Schlagwort alle Beiträge gefunden, die dieses Schlagwort haben."
+
+#: lib/tabs/indexing-tab.php:266
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#. Translators: %s is the taxonomy name.
+#: lib/tabs/indexing-tab.php:199 lib/tabs/indexing-tab.php:285
+msgid "no"
+msgstr "Nein"
+
+#: lib/tabs/indexing-tab.php:195 lib/tabs/indexing-tab.php:289
+msgid "yes"
+msgstr "Ja"
+
+#: lib/tabs/indexing-tab.php:268
+msgid "Public?"
+msgstr "Öffentlich?"
+
+#: lib/tabs/indexing-tab.php:175 lib/tabs/indexing-tab.php:267
+msgid "Index"
+msgstr "Index"
+
+#: lib/tabs/indexing-tab.php:174
+msgid "Type"
+msgstr "Typ"
+
+#: lib/interface.php:284 lib/tabs/indexing-tab.php:110
+msgid "Save the options"
+msgstr "Einstellungen sichern"
+
+#: lib/tabs/excerpts-tab.php:292
+msgid "CSS class for highlights"
+msgstr "CSS-Klasse für Hervorhebungen"
+
+#: lib/tabs/excerpts-tab.php:276
+msgid "CSS style for highlights"
+msgstr "CSS-Stil für Hervorhebungen"
+
+#. Translators: %s is 'Uncheck this if you use non-ASCII characters' option
+#. name.
+#: lib/contextual-help.php:26
+msgid "Uncheck this if you use non-ASCII characters"
+msgstr "Deaktiviere diese Option, wenn du Nicht-ASCII Zeichen verwendest"
+
+#: lib/tabs/excerpts-tab.php:359
+msgid "Highlights hits in comments when user opens the post from search results."
+msgstr "Hebt die Suchbegriffe auch in den Kommentaren hervor, wenn der Besucher eine Seite aus dem Suchergebnis heraus öffnet."
+
+#: lib/tabs/excerpts-tab.php:357
+msgid "Highlight query terms in comments"
+msgstr "Suchbegriffe in Kommentaren hervorheben"
+
+#: lib/tabs/excerpts-tab.php:241
+msgid "CSS Class"
+msgstr "CSS-Klasse"
+
+#: lib/tabs/excerpts-tab.php:240
+msgid "CSS Style"
+msgstr "CSS-Style"
+
+#: lib/tabs/excerpts-tab.php:239 lib/tabs/excerpts-tab.php:262
+msgid "Background color"
+msgstr "Hintergrundfarbe"
+
+#: lib/tabs/excerpts-tab.php:238 lib/tabs/excerpts-tab.php:248
+msgid "Text color"
+msgstr "Textfarbe"
+
+#: lib/tabs/excerpts-tab.php:234
+msgid "No highlighting"
+msgstr "Keine Hervorhebung"
+
+#: lib/tabs/excerpts-tab.php:213
+msgid "Search hit highlighting"
+msgstr "Suchergebnis hervorheben"
+
+#: lib/tabs/excerpts-tab.php:411
+msgid "The breakdown format"
+msgstr "Das Aufschlüsselungsformat"
+
+#: lib/tabs/excerpts-tab.php:404
+msgid "Show the breakdown of search hits in the excerpts."
+msgstr "Die Aufschlüsselung der Suchtreffer in den Textauszügen anzeigen."
+
+#: lib/tabs/excerpts-tab.php:152
+msgid "Allowable tags in excerpts"
+msgstr "Zulässige Schlagwörter in Textauszügen"
+
+#: lib/tabs/excerpts-tab.php:134
+msgid "words"
+msgstr "Wörter"
+
+#: lib/tabs/excerpts-tab.php:133
+msgid "characters"
+msgstr "Zeichen"
+
+#: lib/tabs/excerpts-tab.php:115
+msgid "Length of the snippet"
+msgstr "Länge des Snippets"
+
+#: lib/contextual-help.php:125
+msgid "Building custom excerpts can be slow. If you are not actually using the excerpts, make sure you disable the option."
+msgstr "Das Erstellen individueller Textauszüge kann langsam sein. Wenn du die Auszüge nicht tatsächlich verwendest, stelle sicher, dass du die Option deaktivierst."
+
+#: lib/tabs/excerpts-tab.php:94
+msgid "Create custom search result snippets"
+msgstr "Erstelle individuelle Suchergebnis-Snippets"
+
+#: lib/tabs/excerpts-tab.php:84
+msgid "Custom excerpts/snippets"
+msgstr "Benutzerdefinierte Auszüge/Snippets"
+
+#: lib/tabs/searching-tab.php:278
+msgid "Respect exclude_from_search for custom post types"
+msgstr "exclude_from_search für individuelle Inhaltstypen respektieren."
+
+#: lib/tabs/logging-tab.php:75
+msgid "Comma-separated list of numeric user IDs or user login names that will not be logged."
+msgstr "Komma-getrennte Liste mit numerischen IDs oder Login-Namen der Benutzer, die nicht Protokolliert werden sollen. "
+
+#: lib/tabs/logging-tab.php:60 lib/tabs/logging-tab.php:63
+msgid "Log the user's IP with the queries."
+msgstr "Die IP des Benutzers mit den Abfragen protokollieren."
+
+#: lib/tabs/logging-tab.php:36 lib/tabs/logging-tab.php:39
+msgid "Keep a log of user queries."
+msgstr "Protokoll mit Benutzeranfragen vorhalten."
+
+#: lib/tabs/searching-tab.php:229 lib/tabs/searching-tab.php:232
+msgid "Limit results to current language."
+msgstr "Ergebnisse auf die aktuelle Sprache beschränken."
+
+#: lib/tabs/searching-tab.php:177
+msgid "Comment text"
+msgstr "Kommentar-Texte"
+
+#: lib/tabs/searching-tab.php:151
+msgid "Weight"
+msgstr "Gewichtung"
+
+#: lib/tabs/searching-tab.php:150
+msgid "Element"
+msgstr "Element"
+
+#: lib/tabs/searching-tab.php:119
+msgid " If you want date-based results, see the recent post bonus in the Weights section."
+msgstr " Wenn du datumsbasierte Ergebnisse wünschst, sieh dir den aktuellen Beitragbonus im Abschnitt Gewichtungen an."
+
+#: lib/tabs/searching-tab.php:114
+msgid "Post date"
+msgstr "Datum des Beitrags"
+
+#: lib/tabs/searching-tab.php:113
+msgid "Relevance (highly recommended)"
+msgstr "Relevanz (Hochgradig empfohlen)"
+
+#: lib/tabs/searching-tab.php:81
+msgid "OR - any term present is enough"
+msgstr "OR – einer der Begriffe muß vorkommen"
+
+#: lib/tabs/searching-tab.php:80
+msgid "AND - require all terms"
+msgstr "AND – Alle Begriffe müssen vorkommen"
+
+#: lib/tabs/indexing-tab.php:142
+msgid "term in the index."
+msgid_plural "terms in the index."
+msgstr[0] "Begriff im Index."
+msgstr[1] "Begriffe im Index."
+
+#: lib/tabs/indexing-tab.php:136
+msgid "document in the index."
+msgid_plural "documents in the index."
+msgstr[0] "Dokument im Index."
+msgstr[1] "Dokumente im Index."
+
+#: lib/tabs/indexing-tab.php:135
+msgid "State of the index"
+msgstr "Status des Index"
+
+#. Translators: %s is "Build the index".
+#: lib/tabs/indexing-tab.php:111 lib/tabs/indexing-tab.php:117
+msgid "Build the index"
+msgstr "Index aufbauen"
+
+#: lib/tabs/overview-tab.php:106
+msgid "Buy Relevanssi Premium"
+msgstr "Relevanssi Premium kaufen"
+
+#: lib/interface.php:226 lib/tabs/stopwords-tab.php:22
+#: lib/tabs/stopwords-tab.php:144
+msgid "Stopwords"
+msgstr "Stoppwörter"
+
+#: lib/interface.php:219 lib/tabs/synonyms-tab.php:41
+#: lib/tabs/synonyms-tab.php:67 lib/tabs/synonyms-tab.php:98
+msgid "Synonyms"
+msgstr "Synonyme"
+
+#: lib/tabs/indexing-tab.php:160
+msgid "Indexing options"
+msgstr "Indizierungs-Einstellungen"
+
+#: lib/contextual-help.php:102
+msgid "Logs"
+msgstr "Protokolle"
+
+#: lib/tabs/searching-tab.php:143
+msgid "Weights"
+msgstr "Gewichtungen"
+
+#: lib/user-searches.php:320
+msgid "Hits"
+msgstr "Treffer"
+
+#: lib/log.php:158 lib/user-searches.php:319 lib/user-searches.php:333
+msgid "Query"
+msgstr "Abfrage"
+
+#: lib/user-searches.php:163
+msgid "Reset Logs"
+msgstr "Protokoll zurücksetzen"
+
+#: lib/user-searches.php:120
+msgid "Total searches"
+msgstr "Suchen gesamt"
+
+#: lib/common.php:1155
+msgid "Add to stopwords"
+msgstr "Zu den Stoppwörtern hinzufügen"
+
+#: lib/common.php:1144
+msgid "These words are excellent stopword material. A word that appears in most of the posts in the database is quite pointless when searching. This is also an easy way to create a completely new stopword list, if one isn't available in your language. Click the word to add the word to the stopword list. The word will also be removed from the index, so rebuilding the index is not necessary."
+msgstr "Diese Wörter sind ausgezeichnetes Stoppwortmaterial. Ein Wort, das in den meisten Beiträgen in der Datenbank vorkommt, ist bei der Suche ziemlich sinnlos. Dies ist auch eine einfache Möglichkeit, eine völlig neue Stoppwortliste zu erstellen, falls in deiner Sprache keine verfügbar ist. Klicke auf das Wort, um es zur Stoppwortliste hinzuzufügen. Das Wort wird auch aus dem Index entfernt, sodass eine Neuerstellung des Index nicht erforderlich ist."
+
+#: lib/common.php:1143
+msgid "25 most common words in the index"
+msgstr "Die 25 häufigsten Begriffe im Index"
+
+#: lib/user-searches.php:20
+msgid "Relevanssi User Searches"
+msgstr "Relevanssi Suchanfragen"
+
+#: lib/interface.php:18
+msgid "Relevanssi Search Options"
+msgstr "Relevanssi Such-Einstellungen"
+
+#: lib/interface.php:20
+msgid "Relevanssi Premium Search Options"
+msgstr "Relevanssi Premium Such-Einstellungen"
+
+#: lib/init.php:222 lib/init.php:223 lib/tabs/logging-tab.php:47
+#: lib/user-searches.php:18
+msgid "User searches"
+msgstr "Suchanfragen"
+
+#: lib/init.php:125
+msgid "You do not have an index! Remember to build the index (click the \"Build the index\" button), otherwise searching won't work."
+msgstr "Du hast keinen Index! Baue den Index auf (klicke auf „Index aufbauen“), sonst wird die Suche keine Treffer ergeben."
+
+#: lib/utils.php:1391
+msgid "There is no excerpt because this is a protected post."
+msgstr "Es gibt keinen Auszug, da dies eine geschütze Seite ist."

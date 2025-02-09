@@ -1,0 +1,6 @@
+User-Agent: *
+Allow: /
+Allow: /wp-content/uploads/
+Disallow: /wp-content/plugins/
+Disallow: /readme.html
+sitemap: http://http://catalunyaprobass.com/sitemap_index.xml

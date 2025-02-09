@@ -1,0 +1,1219 @@
+# Translation of Plugins - Import Export WordPress Users and WooCommerce Customers - Stable (latest release) in Dutch
+# This file is distributed under the same license as the Plugins - Import Export WordPress Users and WooCommerce Customers - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-07-05 10:09:44+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: nl\n"
+"Project-Id-Version: Plugins - Import Export WordPress Users and WooCommerce Customers - Stable (latest release)\n"
+
+#: admin/views/admin-settings-pre-saved-templates.php:46
+msgid "Type"
+msgstr "Type"
+
+#: admin/views/admin-settings-marketing.php:57
+#: admin/views/admin-settings-marketing.php:269
+#: admin/views/admin-settings-marketing.php:424
+msgid "Free"
+msgstr "Gratis"
+
+#: admin/views/admin-settings-marketing.php:71
+#: admin/views/admin-settings-marketing.php:84
+#: admin/views/admin-settings-marketing.php:97
+#: admin/views/admin-settings-marketing.php:285
+#: admin/views/admin-settings-marketing.php:298
+#: admin/views/admin-settings-marketing.php:311
+#: admin/views/admin-settings-marketing.php:434
+#: admin/views/admin-settings-marketing.php:447
+#: admin/views/admin-settings-marketing.php:460
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: admin/views/admin-settings-marketing.php:72
+#: admin/views/admin-settings-marketing.php:85
+#: admin/views/admin-settings-marketing.php:98
+#: admin/views/admin-settings-marketing.php:286
+#: admin/views/admin-settings-marketing.php:299
+#: admin/views/admin-settings-marketing.php:312
+#: admin/views/admin-settings-marketing.php:435
+#: admin/views/admin-settings-marketing.php:448
+#: admin/views/admin-settings-marketing.php:461
+msgid "Coupons"
+msgstr "Waardebonnen"
+
+#: users-customers-import-export-for-wp-woocommerce.php:195
+msgid "Sample User CSV"
+msgstr "Voorbeeld gebruiker CSV"
+
+#: users-customers-import-export-for-wp-woocommerce.php:196
+msgid "Familiarize yourself with the sample CSV."
+msgstr "Maak jezelf vertrouwd met de voorbeeld CSV."
+
+#: admin/modules/user/user.php:425
+msgid "Exports specified number of users. e.g. Entering 500 with a skip count of 10 will export users from 11th to 510th position."
+msgstr "Exporteert gespecificeerd aantal gebruikers. bijv. Als je 500 invoert en 10 overslaat, worden gebruikers geëxporteerd van de 11e naar de 510e positie."
+
+#: admin/modules/history/views/_log_list.php:89
+msgid "Please enable import log under"
+msgstr "Schakel de import log in onder"
+
+#: admin/modules/history/views/_log_list.php:89
+msgid "settings"
+msgstr "instellingen"
+
+#: admin/modules/import/import.php:869 admin/modules/import/import.php:1117
+msgid "Importing...(%d processed)"
+msgstr "Aan het importeren... (%d verwerkt)"
+
+#: admin/modules/import/import.php:968
+msgid "CSV is empty"
+msgstr "CSV is leeg"
+
+#: admin/modules/user/user.php:427
+msgid "Skips specified number of users from the beginning of the database. e.g. Enter 10 to skip first 10 users from export."
+msgstr "Slaat het opgegeven aantal gebruikers vanaf het begin van de database over. bijv. Voer 10 in om de eerste 10 gebruikers uit de export over te slaan."
+
+#: admin/modules/user/user.php:542
+msgid "Skip"
+msgstr "Overslaan"
+
+#: admin/modules/user/user.php:543
+msgid "Update"
+msgstr "Update"
+
+#: admin/modules/user/user.php:551
+msgid "Retains the user in the store as is and skips the matching user from the input file."
+msgstr "Houdt de gebruiker in de winkel zoals hij is en slaat de overeenkomende gebruiker uit het invoerbestand over."
+
+#: admin/modules/user/user.php:557
+msgid "Update user as per data from the input file"
+msgstr "Update de gebruiker volgens de gegevens uit het invoerbestand"
+
+#: admin/modules/import/import.php:79
+msgid "Advanced Import"
+msgstr "Geavanceerde import"
+
+#: admin/modules/import/import.php:1125
+msgid "View Details"
+msgstr "Bekijk details"
+
+#: admin/modules/import/views/main.php:27
+msgid "History Details"
+msgstr "Geschiedenis details"
+
+#: admin/modules/export/export.php:86
+msgid "Advanced export"
+msgstr "Geavanceerde export"
+
+#: admin/modules/user/user.php:424
+msgid "Total number of users to export"
+msgstr "Totaal aantal te exporteren gebruikers"
+
+#: admin/modules/user/user.php:426
+msgid "Skip first <i>n</i> users"
+msgstr "Sla de eerste <i>n</i> gebruikers over"
+
+#: admin/modules/user/user.php:479
+msgid "user_login"
+msgstr "user_login"
+
+#: admin/modules/user/user.php:482
+msgid "Sort the exported data based on the selected columns in order specified. Defaulted to ascending order."
+msgstr "Sorteer de geëxporteerde gegevens op basis van de geselecteerde kolommen in opgegeven volgorde; standaard in oplopende volgorde."
+
+#: user_import_export_review_request.php:57
+msgid "Remind me later"
+msgstr "Herinner mij er later aan"
+
+#: user_import_export_review_request.php:58
+msgid "Not interested"
+msgstr "Niet geïnteresseerd"
+
+#: user_import_export_review_request.php:59
+msgid "Review now"
+msgstr "Nu beoordelen"
+
+#: admin/modules/user/user.php:490
+msgid "ASC"
+msgstr "ASC"
+
+#: admin/modules/user/user.php:493
+msgid "Defaulted to Ascending. Applicable to above selected columns in the order specified."
+msgstr "Standaard ingesteld op oplopend; van toepassing op de hierboven geselecteerde kolommen in de opgegeven volgorde."
+
+#: user_import_export_review_request.php:54
+msgid "Hey, we at %sWebToffee%s would like to thank you for using our plugin. We would really appreciate if you could take a moment to drop a quick review that will inspire us to keep going."
+msgstr "Hallo, wij van %sWebToffee%s willen je bedanken voor het gebruik van onze plugin. We zouden het erg op prijs stellen als je even de tijd zou nemen om een snelle beoordeling te plaatsen die ons zal inspireren om door te gaan."
+
+#: admin/modules/user/user.php:462
+msgid "Date on which the user registered. Export users registered on and after the specified date."
+msgstr "De datum waarop de gebruiker zich heeft geregistreerd; exporteer gebruikers, geregistreerd op en na de opgegeven datum."
+
+#: admin/modules/user/user.php:478
+msgid "Sort columns"
+msgstr "Sorteer kolommen"
+
+#: admin/modules/user/user.php:472
+msgid "Export users registered upto the specified date."
+msgstr "Exporteer gebruikers geregistreerd tot de opgegeven datum."
+
+#: admin/modules/user/user.php:431
+msgid "User email"
+msgstr "Gebruiker e-mail"
+
+#: admin/modules/export/export.php:713
+msgid "Download file"
+msgstr "Download het bestand"
+
+#: admin/modules/user/import/import.php:204
+msgid "> skipped: Email is not valid. %s"
+msgstr "> overgeslagen: e-mailasdres is niet geldig. %s"
+
+#: admin/modules/export/export.php:710
+msgid "You can manage exports from History section."
+msgstr "Je kunt de export beheren vanuit de sectie Geschiedenis."
+
+#: admin/modules/export/export.php:700 admin/modules/export/export.php:702
+msgid "Export file processing completed"
+msgstr "Verwerking van bestand export afgerond"
+
+#: admin/modules/export/classes/class-export-ajax.php:119
+#: admin/modules/export/views/_export_mapping_page.php:27
+#: admin/modules/import/classes/class-import-ajax.php:234
+#: admin/modules/import/views/_import_mapping_page.php:96
+msgid "Drag to rearrange the columns"
+msgstr "Sleep om de kolommen opnieuw te rangschikken"
+
+#: admin/modules/export/classes/class-export-ajax.php:264
+#: admin/modules/import/classes/class-import-ajax.php:486
+msgid "Please enter a different name"
+msgstr "Voer een andere naam in"
+
+#: admin/modules/export/classes/class-export-ajax.php:619
+#: admin/modules/import/classes/class-import-ajax.php:894
+msgid "Back"
+msgstr "Terug"
+
+#: admin/modules/export/classes/class-export-ajax.php:632
+#: admin/modules/export/export.php:390
+#: admin/modules/import/classes/class-import-ajax.php:907
+#: admin/modules/import/import.php:398
+msgid "Step"
+msgstr "Stap"
+
+#: admin/modules/export/classes/class-export-ajax.php:639
+#: admin/modules/import/classes/class-import-ajax.php:914
+msgid "Or"
+msgstr "Of"
+
+#: admin/modules/export/classes/class-export-ajax.php:666
+#: admin/modules/import/classes/class-import-ajax.php:941
+msgid "Save As"
+msgstr "Opslaan als"
+
+#: admin/modules/export/classes/class-export-ajax.php:688
+#: admin/modules/export/export.php:159 admin/modules/export/export.php:170
+#: admin/modules/export/export.php:171 admin/modules/export/views/main.php:29
+#: admin/modules/export/views/_export_header.php:8
+#: admin/modules/history/history.php:41
+#: users-customers-import-export-for-wp-woocommerce.php:128
+msgid "Export"
+msgstr "Exporteren"
+
+#: admin/modules/export/export.php:43 admin/modules/import/import.php:48
+#: admin/views/admin-settings-marketing.php:148
+#: admin/views/admin-settings-marketing.php:154
+#: admin/views/admin-settings-marketing.php:160
+#: admin/views/admin-settings-marketing.php:321
+#: admin/views/admin-settings-marketing.php:327
+#: admin/views/admin-settings-marketing.php:333
+#: admin/views/admin-settings-marketing.php:476
+#: admin/views/admin-settings-marketing.php:482
+#: admin/views/admin-settings-marketing.php:488
+msgid "CSV"
+msgstr "CSV-bestand"
+
+#: admin/modules/export/export.php:51 admin/modules/import/import.php:59
+msgid "Select a post type"
+msgstr "Kies een berichttype"
+
+#: admin/modules/export/export.php:55
+#: admin/modules/export/views/_export_method_export_page.php:19
+msgid "Select an export method"
+msgstr "Selecteer een exportmethode"
+
+#: admin/modules/export/export.php:59
+msgid "Filter data"
+msgstr "Gegevens filteren"
+
+#: admin/modules/export/export.php:60
+msgid "Filter data that needs to be exported as per the below criteria."
+msgstr "Filter de gegevens die moeten worden geëxporteerd volgens de onderstaande criteria."
+
+#: admin/modules/export/export.php:67
+msgid "Advanced options/Batch export"
+msgstr "Geavanceerde opties/Batchexport"
+
+#: admin/modules/export/export.php:84
+msgid "Quick export"
+msgstr "Snelle export"
+
+#: admin/modules/export/export.php:273 admin/modules/import/import.php:183
+#: admin/views/admin-settings-marketing.php:169
+#: admin/views/admin-settings-marketing.php:177
+#: admin/views/admin-settings-marketing.php:185
+#: admin/views/admin-settings-marketing.php:342
+#: admin/views/admin-settings-marketing.php:350
+#: admin/views/admin-settings-marketing.php:358
+#: admin/views/admin-settings-marketing.php:497
+#: admin/views/admin-settings-marketing.php:505
+#: admin/views/admin-settings-marketing.php:513
+msgid "Local"
+msgstr "Lokaal"
+
+#: admin/modules/export/export.php:291
+msgid "Export in batches of"
+msgstr "Exporteren in batches van"
+
+#: admin/modules/export/export.php:388
+msgid "Please select an export method."
+msgstr "Selecteer een exportmethode."
+
+#: admin/modules/export/export.php:695
+msgid "Uploading to %s"
+msgstr "Uploaden naar %s"
+
+#: admin/modules/import/views/main.php:81
+msgid "Close"
+msgstr "Sluiten"
+
+#: admin/modules/export/export.php:736
+msgid "Exporting...(%d out of %d)"
+msgstr "Aan het exporteren...(%d uit %d)"
+
+#: admin/modules/export/views/_export_mapping_page.php:10
+#: admin/modules/import/views/_import_mapping_page.php:78
+msgid "Default fields"
+msgstr "Standaardvelden"
+
+#: admin/modules/export/views/_export_mapping_page.php:11
+#: admin/modules/export/views/_export_mapping_page.php:86
+#: admin/modules/import/views/_import_mapping_page.php:79
+#: admin/modules/import/views/_import_mapping_page.php:271
+msgid " columns(s) selected"
+msgstr " geselecteerde kolom(men)"
+
+#: admin/modules/export/views/_export_mapping_page.php:53
+#: admin/modules/export/views/_export_meta_step_page.php:49
+#: admin/modules/import/views/_import_mapping_page.php:237
+#: admin/modules/import/views/_import_meta_step_page.php:36
+msgid "No fields found."
+msgstr "Geen velden gevonden."
+
+#: admin/modules/export/views/_export_method_export_page.php:10
+msgid "Please select an export method"
+msgstr "Selecteer een exportmethode"
+
+#: admin/modules/export/views/_export_method_export_page.php:42
+msgid "Include fields from the respective groups"
+msgstr "Neem velden uit de respectieve groepen op"
+
+#: admin/modules/export/views/_export_post_type_page.php:9
+#: admin/modules/import/views/_import_post_type_page.php:9
+msgid "Please select a post type"
+msgstr "Selecteer een berichttype"
+
+#: admin/modules/export/views/_export_post_type_page.php:16
+#: admin/modules/import/views/_import_post_type_page.php:16
+msgid "Select post type"
+msgstr "Selecteer het berichttype"
+
+#: admin/modules/export/views/main.php:41
+#: admin/modules/import/views/main.php:104
+msgid "Unable to handle Re-Run request."
+msgstr "De aanvraag opnieuw uitvoeren is niet mogelijk."
+
+#: admin/modules/history/history.php:35
+msgid "Running/Incomplete"
+msgstr "Bezig/Onvolledig"
+
+#: admin/modules/history/history.php:37
+msgid "Failed"
+msgstr "Mislukt"
+
+#: admin/modules/history/history.php:355
+#: admin/modules/history/views/_history_list.php:110
+msgid "Post type"
+msgstr "Berichttype"
+
+#: admin/modules/history/history.php:362
+#: admin/modules/history/views/_history_list.php:109
+msgid "Action type"
+msgstr "Actietype"
+
+#: admin/modules/history/history.php:369
+#: admin/modules/history/views/_history_list.php:113
+#: admin/modules/history/views/_log_table.php:44
+#: admin/modules/import/views/main.php:48
+msgid "Status"
+msgstr "Status"
+
+#: admin/modules/history/history.php:821
+msgid " record(s)"
+msgstr " record(s)"
+
+#: admin/modules/history/views/_history_list.php:21
+msgid "Filter"
+msgstr "Filteren"
+
+#: admin/modules/history/views/_history_list.php:32
+msgid "All"
+msgstr "Alles"
+
+#: admin/modules/history/views/_history_list.php:55
+#: admin/modules/user/user.php:489
+msgid "Sort by"
+msgstr "Sorteren op"
+
+#: admin/modules/history/views/_history_list.php:68
+msgid "Max record/page"
+msgstr "Maximumaantal records/pagina's"
+
+#: admin/class-wt-import-export-for-woo-admin.php:140
+#: admin/modules/history/views/_history_list.php:82
+#: admin/modules/history/views/_history_list.php:92
+#: admin/modules/history/views/_log_list.php:45
+msgid "Apply"
+msgstr "Toepassen"
+
+#: admin/modules/history/views/_history_list.php:106
+#: admin/modules/history/views/_log_list.php:52
+msgid "No."
+msgstr "Nr."
+
+#: admin/modules/history/views/_history_list.php:108
+msgid "Id"
+msgstr "ID"
+
+#: admin/modules/history/views/_history_list.php:111
+msgid "Started at"
+msgstr "Gestart op"
+
+#: admin/modules/history/views/_history_list.php:118
+msgid "%sRunning/Incomplete%s - Process that are running currently or that may have been terminated unknowingly(e.g, closing a browser tab while in progress etc)"
+msgstr "%s Aan het uitvoeren/Niet afgerond%s - Proces dat momenteel wordt uitgevoerd of dat mogelijk onbewust is beëindigd (bijvoorbeeld een browsertabblad sluiten tijdens de uitvoering, enz.)"
+
+#: admin/modules/history/views/_history_list.php:122
+#: admin/modules/history/views/_log_list.php:55
+msgid "Actions"
+msgstr "Acties"
+
+#: admin/modules/history/views/_history_list.php:124
+msgid "Re-run will take the user to the respective screen depending on the corresponding action type and the user can initiate the process accordingly."
+msgstr "'Opnieuw uitvoeren' brengt de gebruiker naar het betreffende scherm, afhankelijk van het bijbehorende actietype en de gebruiker kan het dienovereenkomstige proces starten."
+
+#: admin/modules/history/views/_history_list.php:146
+msgid "Unknown"
+msgstr "Onbekend"
+
+#: admin/modules/history/views/_history_list.php:164
+msgid "Re-Run"
+msgstr "Opnieuw uitvoeren"
+
+#: admin/modules/history/views/_history_list.php:201
+#: admin/modules/history/views/_log_table.php:127
+msgid "No records found."
+msgstr "Geen records gevonden."
+
+#: admin/modules/history/views/_log_list.php:54
+msgid "File"
+msgstr "Bestand"
+
+#: admin/modules/history/views/_log_list.php:74
+msgid "View"
+msgstr "Bekijken"
+
+#: admin/modules/history/views/_history_list.php:185
+#: admin/modules/history/views/_log_list.php:75
+msgid "Download"
+msgstr "Download"
+
+#: admin/modules/history/views/_log_table.php:43
+msgid "Row No."
+msgstr "Rij nr."
+
+#: admin/modules/history/views/_log_table.php:46
+#: admin/modules/import/views/main.php:46
+#: admin/views/admin-settings-pre-saved-templates.php:45
+msgid "Item"
+msgstr "Item"
+
+#: admin/modules/history/views/_log_table.php:68
+#: admin/modules/user/import/import.php:78
+msgid "Success"
+msgstr "Gelukt"
+
+#: admin/modules/history/views/_log_table.php:68
+#: admin/modules/import/views/main.php:66
+#: admin/modules/user/import/import.php:82
+#: admin/modules/user/import/import.php:87
+msgid "Failed/Skipped"
+msgstr "Mislukt/overgeslagen"
+
+#: admin/modules/history/views/_log_table.php:119
+msgid "Load more."
+msgstr "Meer laden."
+
+#: admin/modules/history/views/_log_table.php:120
+msgid "Loading...."
+msgstr "Aan het laden..."
+
+#: admin/modules/import/classes/class-import-ajax.php:164
+msgid "Unable to upload file. Please check write permission of your `wp-content` folder."
+msgstr "Het bestand kan niet geüpload worden; controleer de schrijfrechten van de map 'wp-content'."
+
+#: admin/modules/import/classes/class-import-ajax.php:168
+msgid "File size exceeds the limit. %dMB max"
+msgstr "De bestandsgrootte overschrijdt de maximumlimiet van %d MB"
+
+#: admin/modules/import/classes/class-import-ajax.php:172
+msgid "Invalid file type. Only %s are allowed."
+msgstr "Ongeldig bestandstype; alleen %s zijn toegestaan."
+
+#: admin/modules/import/classes/class-import-ajax.php:738
+msgid "New taxonomy: "
+msgstr "Nieuwe taxonomie: "
+
+#: admin/modules/import/classes/class-import-ajax.php:744
+msgid "Custom Field: "
+msgstr "Aangepast veld: "
+
+#: admin/modules/import/classes/class-import-ajax.php:754
+msgid "New attribute: "
+msgstr "Nieuw attribuut: "
+
+#: admin/modules/import/classes/class-import-ajax.php:765
+msgid "Attribute default value: "
+msgstr "Standaardwaarde voor het attribuut: "
+
+#: admin/modules/import/import.php:68
+msgid "Map the standard columns with your CSV column names."
+msgstr "Breng de standaardkolommen in kaart met de CSV-kolomnamen."
+
+#: admin/modules/import/import.php:71
+msgid "Advanced options/Batch import"
+msgstr "Geavanceerde opties/Batchimport"
+
+#: admin/modules/import/import.php:146
+msgid "Provide the default number of records to be imported in a batch."
+msgstr "Geef het standaardaantal records op dat in een batch moet worden geïmporteerd."
+
+#: admin/modules/import/import.php:200
+msgid "Choose file for Import"
+msgstr "Kies het te importeren bestand"
+
+#: admin/modules/import/import.php:216
+msgid "Select a file"
+msgstr "Selecteer een bestand"
+
+#: admin/modules/export/export.php:300 admin/modules/import/import.php:238
+msgid "Delimiter"
+msgstr "Scheidingsteken"
+
+#: admin/modules/import/import.php:403
+msgid "Creating temp file and validating."
+msgstr "Tijdelijk bestand aanmaken en valideren."
+
+#: admin/modules/import/import.php:404
+msgid "Processing input file..."
+msgstr "Invoerbestand aan het verwerken..."
+
+#: admin/modules/import/import.php:406
+msgid "Uploading..."
+msgstr "Aan het uploaden..."
+
+#: admin/modules/import/import.php:409
+msgid "Invalid file type. Only %s are allowed"
+msgstr "Ongeldig bestandstype; alleen %s zijn toegestaan"
+
+#: admin/modules/import/import.php:412
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: admin/modules/import/import.php:552 admin/modules/import/import.php:570
+msgid "Unable to create temp file."
+msgstr "Niet mogelijk een tijdelijk bestand aan te maken."
+
+#: admin/modules/import/import.php:574
+msgid "Unable to fetch file data."
+msgstr "Niet mogelijk bestandsgegevens op te halen."
+
+#: admin/modules/import/import.php:583
+msgid "File type not allowed."
+msgstr "Bestandstype niet toegestaan."
+
+#: admin/modules/import/import.php:587
+msgid "File not found."
+msgstr "Bestand niet gevonden."
+
+#: admin/modules/import/import.php:795
+msgid "Temp file missing."
+msgstr "Tijdelijk bestand ontbreekt."
+
+#: admin/modules/import/import.php:1119
+msgid "Total success: "
+msgstr "Totaal gelukt: "
+
+#: admin/modules/import/import.php:1119
+msgid "Total failed: "
+msgstr "Totaal mislukt: "
+
+#: admin/modules/import/views/_import_mapping_page.php:7
+msgid "Click to use"
+msgstr "Klik om te gebruiken"
+
+#: admin/modules/import/views/_import_mapping_page.php:15
+msgid "Set value for column:"
+msgstr "Stel de waarde in voor de kolom:"
+
+#: admin/modules/import/views/_import_mapping_page.php:31
+msgid "Type here to search"
+msgstr "Typ hier om te zoeken"
+
+#: admin/modules/import/views/_import_mapping_page.php:49
+msgid "No column found."
+msgstr "Geen kolom gevonden."
+
+#: admin/modules/user/import/import.php:549
+msgid "User could not be found with given Email or username."
+msgstr "De gebruiker kon niet worden gevonden met het/de e-mailadres of gebruikersnaam."
+
+#: admin/modules/export/export.php:63
+msgid "Map and reorder export columns"
+msgstr "Export kolommen toewijzen en opnieuw ordenen"
+
+#: admin/modules/export/export.php:516 admin/modules/history/history.php:36
+#: admin/modules/import/import.php:1113
+msgid "Finished"
+msgstr "Beëindigd"
+
+#: admin/modules/export/export.php:391 admin/modules/import/import.php:399
+msgid "Please select an FTP profile."
+msgstr "Selecteer een FTP profiel."
+
+#: admin/modules/history/history.php:71 admin/modules/history/history.php:72
+msgid "History"
+msgstr "Geschiedenis"
+
+#: admin/modules/history/history.php:225
+msgid "Maximum entries"
+msgstr "Maximum aantal vermeldingen"
+
+#: admin/modules/history/history.php:389
+msgid "Date descending"
+msgstr "Datum aflopend"
+
+#: admin/modules/history/history.php:390
+msgid "Date ascending"
+msgstr "Datum oplopend"
+
+#: admin/modules/history/views/_history_list.php:7
+msgid "Import/Export history"
+msgstr "Geschiedenis import/export"
+
+#: admin/modules/history/views/_history_list.php:10
+msgid "Lists the runs and the status corresponding to every import/export with options to re-run, view detailed log or delete entry."
+msgstr "Geeft het aantal uitvoeringen en de status weer die overeenkomt met elke import/export met de optie om opnieuw uit te voeren, gedetailleerd log te bekijken of de regel te verwijderen."
+
+#: admin/modules/history/views/_history_list.php:89
+#: admin/modules/history/views/_log_list.php:42
+msgid "Bulk Actions"
+msgstr "Bulkacties"
+
+#: admin/modules/history/views/_history_list.php:90
+#: admin/modules/history/views/_history_list.php:150
+#: admin/modules/history/views/_log_list.php:43
+#: admin/modules/history/views/_log_list.php:73
+#: admin/views/admin-settings-pre-saved-templates.php:60
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: admin/modules/history/views/_history_list.php:116
+msgid "%sSuccess%s - Process completed successfully"
+msgstr "%sGelukt%s - Proces met succes afgerond"
+
+#: admin/modules/import/classes/class-import-ajax.php:735
+msgid "Product taxonomies"
+msgstr "Product taxonomieën"
+
+#: admin/modules/import/classes/class-import-ajax.php:751
+msgid "Taxonomy attributes"
+msgstr "Taxonomie attributen"
+
+#: admin/modules/import/classes/class-import-ajax.php:760
+msgid "Attribute data: "
+msgstr "Attribuut gegevens: "
+
+#: admin/modules/import/import.php:63
+msgid "Select import method"
+msgstr "Selecteer Importmethode "
+
+#: admin/modules/import/import.php:77
+msgid "Quick import"
+msgstr "Snelle import"
+
+#: admin/modules/import/import.php:163
+msgid "Import in batches of"
+msgstr "Importeer in batches van"
+
+#: admin/modules/import/import.php:411
+msgid "%s Done."
+msgstr "%s klaar."
+
+#: admin/modules/import/views/_import_mapping_page.php:29
+msgid "Input file columns"
+msgstr "Invoerbestand kolommen"
+
+#: admin/modules/export/classes/class-export-ajax.php:267
+#: admin/modules/import/classes/class-import-ajax.php:489
+msgid "Template with same name already exists"
+msgstr "Er bestaat al een template met dezelfde naam"
+
+#: admin/modules/export/classes/class-export-ajax.php:658
+#: admin/modules/export/classes/class-export-ajax.php:676
+#: admin/modules/import/classes/class-import-ajax.php:933
+#: admin/modules/import/classes/class-import-ajax.php:951
+msgid "Save template"
+msgstr "Sla de template op"
+
+#: admin/modules/export/export.php:56
+msgid "Choose from the options below to continue with your export: quick export from DB, based on a pre-saved template or a new export with advanced options."
+msgstr "Kies uit de onderstaande opties om door te gaan met je export: snelle export vanuit DB, gebaseerd op een vooraf opgeslagen template of een nieuwe export met geavanceerde opties."
+
+#: admin/modules/export/export.php:85 admin/modules/import/import.php:78
+msgid "Pre-saved template"
+msgstr "Vooraf opgeslagen template"
+
+#: admin/modules/export/export.php:120
+msgid "Default Export method"
+msgstr "Standaard exportmethode"
+
+#: admin/modules/export/export.php:126
+msgid "Select the default method of export."
+msgstr "Selecteer de standaard exportmethode."
+
+#: admin/modules/export/export.php:140
+msgid "Default Export batch count"
+msgstr "Standaard export batch telling"
+
+#: admin/modules/export/export.php:144
+msgid "Provide the default count for the records to be exported in a batch."
+msgstr "Geef het standaardaantal op voor de records die in een batch moeten worden geëxporteerd."
+
+#: admin/modules/export/export.php:251
+msgid "The actual number of records you want to export. e.g. A limit of 500 with an offset 10 will export records from 11th to 510th position."
+msgstr "Het werkelijke aantal records dat je wil exporteren. bijv. Een limiet van 500 met een offset van 10 exporteert records van de 11e naar de 510e positie."
+
+#: admin/modules/export/export.php:387 admin/modules/import/import.php:395
+msgid "Choosed template: "
+msgstr "Gekozen template:"
+
+#: admin/modules/export/export.php:389
+#: admin/modules/export/views/_export_method_export_page.php:14
+msgid "Please select an export template."
+msgstr "Selecteer een export template."
+
+#: admin/modules/export/views/_export_method_export_page.php:73
+msgid "Export template"
+msgstr "Template exporteren"
+
+#: admin/modules/export/views/_export_method_export_page.php:76
+#: admin/modules/import/views/_import_method_import_page.php:38
+msgid "Select a template"
+msgstr "Selecteer een template"
+
+#: admin/modules/history/views/_history_list.php:117
+msgid "%sFailed%s - Failed process triggered due to connection/permission or similar issues(unable to establish FTP/DB connection, write permission issues etc.)"
+msgstr "%sFailed%s - Mislukt proces geactiveerd vanwege verbinding/toestemming of soortgelijke problemen (kan geen FTP/DB-verbinding tot stand brengen, problemen met schrijfrechten enz.)"
+
+#: admin/modules/history/views/_log_list.php:18
+msgid "Lists developer logs mostly required for debugging purposes. Options to view detailed logs are available along with delete and download(that can be shared with the support team in case of issues)."
+msgstr "Geeft een overzicht van de logs van ontwikkelaars die meestal nodig zijn voor foutopsporing. Opties om gedetailleerde logs te bekijken zijn beschikbaar, evenals verwijderen en downloaden (dat kan worden gedeeld met het ondersteuningsteam in geval van problemen)."
+
+#: admin/modules/history/views/_log_list.php:87
+msgid "No logs found."
+msgstr "Geen logs gevonden."
+
+#: admin/modules/history/views/_log_table.php:45
+#: admin/modules/import/views/main.php:47
+msgid "Message"
+msgstr "Bericht"
+
+#: admin/modules/history/views/_history_list.php:177
+msgid "View log"
+msgstr "Bekijk log"
+
+#: admin/modules/import/import.php:64
+msgid "Choose from the options below to continue with your import: quick import, based on a pre-saved template or a new import with advanced options."
+msgstr "Kies uit onderstaande opties om door te gaan met je import: snelle import, gebaseerd op een vooraf opgeslagen template of een nieuwe import met geavanceerde opties."
+
+#: admin/modules/import/import.php:72
+msgid "Use advanced options from below to decide on the delimiter options, updates to existing products, batch import count or schedule an import. You can also save the template file for future imports."
+msgstr "Gebruik geavanceerde opties van hieronder om te beslissen over de scheidingstekenopties, updates van bestaande producten, het aantal batchimporten of om een import te plannen. Je kunt het template bestand ook opslaan voor toekomstige import."
+
+#: admin/modules/import/import.php:142
+msgid "Default Import batch count"
+msgstr "Standaard aantal import batches"
+
+#: admin/modules/import/import.php:401
+msgid "Please choose an import file."
+msgstr "Kies een importbestand."
+
+#: admin/modules/import/import.php:405
+msgid "This column is not present in the import list. Please tick the checkbox to include."
+msgstr "Deze kolom is niet aanwezig in de importlijst. Vink het selectievakje aan om op te nemen."
+
+#: admin/modules/import/import.php:407
+msgid "You are using an outdated browser. Please upgarde your browser."
+msgstr "Je gebruikt een verouderde browser. Gelieve je browser op te waarderen."
+
+#: admin/modules/import/import.php:408
+msgid "An error occured."
+msgstr "Er is een fout opgetreden."
+
+#: admin/modules/import/import.php:579
+msgid "Unable to create temp directory."
+msgstr "Kan tijdelijke folder niet maken."
+
+#: admin/modules/import/views/_import_method_import_page.php:13
+msgid "Import method"
+msgstr "Import methode"
+
+#: admin/modules/import/views/_import_method_import_page.php:35
+msgid "Import template"
+msgstr "Template importeren"
+
+#: admin/modules/export/views/_export_method_export_page.php:67
+msgid "Enabling any of these ensures that all the fields from the respective groups are included in your export."
+msgstr "Als je een van deze velden inschakelt, worden alle velden van de desbetreffende groepen opgenomen in het exportbestand."
+
+#: admin/modules/import/import.php:139
+msgid "Select the default method of import."
+msgstr "Selecteer de standaard import methode."
+
+#: admin/modules/import/import.php:133
+msgid "Default Import method"
+msgstr "Standaard import methode"
+
+#: admin/modules/import/import.php:396
+msgid "Please select an import method."
+msgstr "Selecteer een import methode."
+
+#: admin/modules/import/import.php:397 admin/modules/import/import.php:402
+#: admin/modules/import/views/_import_method_import_page.php:9
+msgid "Please select an import template."
+msgstr "Selecteer een import template."
+
+#: admin/modules/import/import.php:400
+msgid "Please choose import from."
+msgstr "Kies importeer van."
+
+#: admin/modules/export/export.php:296
+msgid "The number of records that the server will process for every iteration within the configured timeout interval. If the export fails due to timeout you can lower this number accordingly and try again"
+msgstr "Het aantal records dat de server voor elke iteratie verwerkt binnen de geconfigureerde time-out interval. Als de export mislukt, door een time-out kan je dit aantal dienovereenkomstig verlagen en het opnieuw proberen. "
+
+#: admin/modules/export/export.php:64
+msgid "The default export column names can be edited from the screen below, if required. If you have chosen a pre-saved template you can see the preferred names and choices that were last saved. You may also drag the columns accordingly to reorder them within the output file."
+msgstr "De standaard export kolomnamen kunnen bewerkt worden in het onderstaande scherm indien nodig. Als je een vooraf opgeslagen template hebt gekozen, kun je de voorkeursnamen en keuzes zien die het laatst zijn opgeslagen. Je kunt de kolommen ook dienovereenkomstig slepen om ze in het uitvoerbestand opnieuw te ordenen."
+
+#: admin/modules/export/export.php:260
+msgid "Specify the number of records that should be skipped from the beginning of the database. e.g. An offset of 10 skips the first 10 records."
+msgstr "Geef het aantal records op dat vanaf het begin van de database moet worden overgeslagen. Bijv. een offset van 10 sla de eerste 10 records over."
+
+#: admin/modules/import/import.php:167
+msgid "The number of records that the server will process for every iteration within the configured timeout interval. If the import fails due to timeout you can lower this number accordingly and try again."
+msgstr "Het aantal records dat de server voor elke iteratie verwerkt binnen het geconfigureerde time-out interval. Als het importeren mislukt door een time-out, kan je dit aantal dienovereenkomstig verlagen en het opnieuw proberen."
+
+#: admin/class-wt-import-export-for-woo-admin.php:130
+msgid "All fields are mandatory"
+msgstr "Alle velden zijn verplicht"
+
+#: admin/class-wt-import-export-for-woo-admin.php:134
+msgid "Value is empty."
+msgstr "De waarde is leeg."
+
+#: admin/class-wt-import-export-for-woo-admin.php:137
+msgid "Loading..."
+msgstr "Aan het laden..."
+
+#: admin/class-wt-import-export-for-woo-admin.php:139
+#: admin/modules/history/history.php:518
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: admin/class-wt-import-export-for-woo-admin.php:211
+#: admin/class-wt-import-export-for-woo-admin.php:212
+#: admin/class-wt-import-export-for-woo-admin.php:233
+#: admin/class-wt-import-export-for-woo-admin.php:234
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: admin/class-wt-import-export-for-woo-admin.php:288
+#: admin/class-wt-import-export-for-woo-admin.php:329
+#: admin/modules/export/export.php:226 admin/modules/export/export.php:503
+#: admin/modules/history/history.php:97 admin/modules/import/import.php:1160
+msgid "Error"
+msgstr "Fout"
+
+#: admin/class-wt-import-export-for-woo-admin.php:470
+msgid "Settings"
+msgstr "Instellingen"
+
+#: admin/modules/export/classes/class-export-ajax.php:662
+#: admin/modules/import/classes/class-import-ajax.php:937
+#: admin/views/_save_template_popup.php:13
+msgid "Save"
+msgstr "Opslaan"
+
+#: admin/modules/export/export.php:160
+msgid "WebToffee Import Export (Basic)"
+msgstr "WebToffee-import/export (Basis)"
+
+#: admin/modules/user/user.php:574 admin/partials/_form_field_generator.php:312
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/modules/user/user.php:575 admin/partials/_form_field_generator.php:313
+msgid "No"
+msgstr "Nee"
+
+#: admin/modules/import/import.php:410
+msgid "Drop files here or click to upload"
+msgstr "Sleep de bestanden hierheen of klik hier om ze te uploaden"
+
+#: admin/modules/user/user.php:228
+msgid "User/Customer"
+msgstr "Gebruiker/klant"
+
+#: admin/modules/user/user.php:512
+msgid "Export guest users"
+msgstr "Gastgebruikers exporteren"
+
+#: admin/modules/user/user.php:571
+msgid "Retain user passwords"
+msgstr "Gebruikerswachtwoorden behouden"
+
+#: admin/partials/_form_field_generator.php:353
+msgid "Select"
+msgstr "Selecteren"
+
+#: admin/partials/wt-import-export-for-woo-admin-display.php:15
+msgid "General"
+msgstr "Algemeen"
+
+#: admin/partials/wt-import-export-for-woo-admin-display.php:16
+msgid "Help Guide"
+msgstr "Hulpgids"
+
+#: admin/views/_save_template_popup.php:13
+msgid "Save as"
+msgstr "Sla op als"
+
+#: admin/views/admin-settings-help.php:8
+msgid "Help Links"
+msgstr "Hulplinks"
+
+#: helpers/class-wt-common-helper.php:70
+msgid "The %s requires a minimum version of %s %s. Please upgrade the %s accordingly."
+msgstr "De %s vereist een minimumversie van %s %s. Upgrade de %s dienovereenkomstig."
+
+#: helpers/class-wt-import-export-helper.php:21
+msgid "Comma"
+msgstr "Komma"
+
+#: helpers/class-wt-import-export-helper.php:22
+msgid "Semicolon"
+msgstr "Puntkomma"
+
+#: helpers/class-wt-import-export-helper.php:24
+msgid "Space"
+msgstr "Spatie"
+
+#: helpers/class-wt-import-export-helper.php:187
+msgid "Refresh the step"
+msgstr "Ververs de stap"
+
+#: admin/partials/_form_field_generator.php:353
+msgid "Upload"
+msgstr "Upload"
+
+#: admin/partials/wt-import-export-for-woo-admin-display.php:10
+msgid "Import Export for WooCommerce"
+msgstr "Import export voor WooCommerce"
+
+#: admin/partials/_form_field_generator.php:353
+msgid "Choose a file."
+msgstr "Kies een bestand."
+
+#: admin/views/_save_template_popup.php:21
+msgid "Please enter name"
+msgstr "Geef een naam in"
+
+#: helpers/class-wt-import-export-helper.php:23
+msgid "Tab"
+msgstr "Tab"
+
+#: helpers/class-wt-import-export-helper.php:192
+msgid "Console form data"
+msgstr "Console formulier gegevens"
+
+#: helpers/class-wt-import-export-helper.php:203
+msgid "For debugging process"
+msgstr "Fout opsporing proces"
+
+#: helpers/class-wt-import-export-helper.php:204
+msgid "Debug panel"
+msgstr "Fout opsporing paneel"
+
+#: admin/class-wt-import-export-for-woo-admin.php:131
+msgid "Unable to update Settings."
+msgstr "Instellingen kunnen niet worden geüpdatet."
+
+#: admin/class-wt-import-export-for-woo-admin.php:136
+msgid "Success."
+msgstr "Succes."
+
+#: admin/class-wt-import-export-for-woo-admin.php:315
+msgid "Settings Updated"
+msgstr "Instellingen geüpdatet"
+
+#: admin/views/_save_template_popup.php:25
+msgid "Template name"
+msgstr "Template naam"
+
+#: admin/views/admin-settings-help.php:25
+msgid "Help and Support"
+msgstr "Hulp en ondersteuning"
+
+#: admin/class-wt-import-export-for-woo-admin.php:129
+msgid "Settings updated."
+msgstr "Instellingen geüpdatet."
+
+#: admin/modules/user/user.php:126
+msgid "Use advanced options from below to retain user passwords or not, set batch import count. You can also save the template file for future imports."
+msgstr "Gebruik geavanceerde opties van hieronder of gebruikerswachtwoorden al dan niet moeten worden bewaard, of om in te stellen het aantal batch importen te tellen. Je kunt het template bestand ook opslaan voor toekomstige import."
+
+#: admin/modules/user/user.php:451
+msgid "Input specific roles to export information pertaining to all users with the respective role/s."
+msgstr "Voer specifieke rollen in om informatie betrekking hebbend op alle gebruikers met de betreffende rol(len) te exporteren."
+
+#: admin/class-wt-import-export-for-woo-admin.php:141
+#: admin/modules/import/views/main.php:80
+#: admin/views/_save_template_popup.php:29
+#: includes/class-wt-userimport-uninstall-feedback.php:108
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: admin/class-wt-import-export-for-woo-admin.php:471
+#: admin/views/admin-settings-help.php:17
+#: admin/views/admin-settings-help.php:20
+#: users-customers-import-export-for-wp-woocommerce.php:130
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: admin/modules/export/export.php:246
+msgid "Limit"
+msgstr "Limiet"
+
+#: admin/modules/export/views/_export_mapping_page.php:21
+#: admin/modules/export/views/_export_meta_step_page.php:16
+msgid "Column"
+msgstr "Kolom"
+
+#: admin/modules/export/views/_export_mapping_page.php:22
+#: admin/modules/export/views/_export_meta_step_page.php:17
+msgid "Column name"
+msgstr "Kolomnaam"
+
+#: admin/modules/user/import/import.php:200
+#: admin/modules/user/import/import.php:202
+msgid "> skipped: cannot insert user without email."
+msgstr "> overgeslagen: niet mogelijk een gebruiker in te voegen zonder e-mailadres."
+
+#: admin/modules/user/import/import.php:247
+msgid "Processing users."
+msgstr "Gebruikers aan het verwerken."
+
+#: admin/modules/user/import/import.php:258
+#: admin/modules/user/import/import.php:260
+#: admin/modules/user/import/import.php:286
+msgid "> &#8220;%s&#8221;"
+msgstr "&#8220;%s&#8221;"
+
+#: admin/modules/user/import/import.php:269
+#: admin/modules/user/import/import.php:272
+msgid "> Error inserting %s: %s"
+msgstr "> Fout bij het invoegen van %s: %s"
+
+#: admin/modules/user/import/import.php:288
+msgid "> Finished importing user %s"
+msgstr "> Klaar met het importeren van gebruiker %s"
+
+#: admin/modules/user/import/import.php:441
+msgid "User could not be created without Email."
+msgstr "De gebruiker kan niet worden aangemaakt zonder e-mailadres."
+
+#: admin/modules/export/export.php:259
+msgid "0"
+msgstr "0"
+
+#: admin/views/admin-settings-help.php:18
+msgid "Refer to our documentation to set up and get started."
+msgstr "Raadpleeg onze documentatie om in te stellen en aan de slag te gaan."
+
+#: admin/views/admin-settings-help.php:28
+msgid "Contact Us"
+msgstr "Neem contact met ons op"
+
+#: helpers/class-wt-import-export-helper.php:25
+#: includes/class-wt-userimport-uninstall-feedback.php:67
+msgid "Other"
+msgstr "Overige"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:19
+msgid "Used it successfully. Don't need anymore."
+msgstr "Heb het met succes gebruikt; ik heb niet meer nodig."
+
+#: includes/class-wt-userimport-uninstall-feedback.php:31
+msgid "I couldn't understand how to make it work"
+msgstr "Ik begreep niet hoe ik hem werkend kon krijgen"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:33
+msgid "Would you like us to assist you?"
+msgstr "Wil je dat wij je helpen?"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:37
+msgid "I found a better plugin"
+msgstr "Ik heb een betere plugin gevonden"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:39
+msgid "Which plugin?"
+msgstr "Welke plugin?"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:43
+msgid "The plugin is great, but I need specific feature that you don't support"
+msgstr "Deze plugin is geweldig, maar ik heb een specifieke functie nodig die jullie niet ondersteunen"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:49
+msgid "The plugin is not working"
+msgstr "De plugin werkt niet"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:55
+msgid "It's not what I was looking for"
+msgstr "Daar was ik niet naar op zoek"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:61
+msgid "The plugin didn't work as expected"
+msgstr "De plugin werkte niet zoals verwacht"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:103
+msgid "I rather wouldn't say"
+msgstr "Zeg ik liever niet"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:202
+msgid "Deactivate and leave a review"
+msgstr "Deactiveer en geef een beoordeling"
+
+#: users-customers-import-export-for-wp-woocommerce.php:132
+msgid "Premium Upgrade"
+msgstr "Upgraden naar de premiumversie"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/users-customers-import-export-for-wp-woocommerce/"
+msgstr "https://wordpress.org/plugins/users-customers-import-export-for-wp-woocommerce/"
+
+#. Description of the plugin
+msgid "Export and Import User/Customers details From and To your WordPress/WooCommerce."
+msgstr "Exporteer en importeer gebruikersgegevens van en naar WordPress/WooCommerce."
+
+#. Author of the plugin
+msgid "WebToffee"
+msgstr "WebToffee"
+
+#. Author URI of the plugin
+msgid "https://www.webtoffee.com/product/wordpress-users-woocommerce-customers-import-export/"
+msgstr "https://www.webtoffee.com/product/wordpress-users-woocommerce-customers-import-export/"
+
+#: admin/modules/history/history.php:42
+#: admin/modules/import/classes/class-import-ajax.php:960
+#: admin/modules/import/import.php:269 admin/modules/import/import.php:270
+#: admin/modules/import/views/main.php:92
+#: admin/modules/import/views/_import_header.php:8
+#: users-customers-import-export-for-wp-woocommerce.php:129
+msgid "Import"
+msgstr "Import"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:107
+msgid "Submit & Deactivate"
+msgstr "Verzenden & deactiveren"
+
+#: admin/modules/user/import/import.php:206
+msgid ">  skipped: Email is not valid."
+msgstr "> overgeslagen: e-mailadres is niet geldig."
+
+#: admin/class-wt-import-export-for-woo-admin.php:472
+#: users-customers-import-export-for-wp-woocommerce.php:131
+msgid "Support"
+msgstr "Ondersteuning"
+
+#: admin/modules/export/export.php:256
+msgid "Offset"
+msgstr "Offset"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:45
+msgid "Could you tell us more about that feature?"
+msgstr "Kun je ons meer vertellen over die functie?"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:51
+msgid "Could you tell us a bit more whats not working?"
+msgstr "Kun je ons nog wat meer vertellen wat niet werkt?"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:63
+msgid "What did you expect?"
+msgstr "Wat had je verwacht?"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:69
+msgid "Could you tell us a bit more?"
+msgstr "Kun je ons wat meer vertellen?"
+
+#: includes/class-wt-userimport-uninstall-feedback.php:87
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "Als je even de tijd hebt, laat ons dan weten waarom je deactiveert:"
+
+#: admin/modules/user/import/import.php:277
+msgid "An error occurred with the customer information provided."
+msgstr "Er is een fout opgetreden met de verstrekte klantinformatie."
+
+#: admin/views/admin-settings-help.php:26
+msgid "We would love to help you on any queries or issues."
+msgstr "We helpen je graag verder met eventuele vragen of problemen."
+
+#: includes/class-wt-userimport-uninstall-feedback.php:21
+msgid "Have used it successfully and aint in need of it anymore"
+msgstr "Heb het met succes gebruikt en heb het niet meer nodig"
+
+#: admin/views/market.php:52
+msgid "30 Day Money Back Guarantee"
+msgstr "30-dagen geld terug garantie"
+
+#: admin/views/market.php:53
+msgid "Fast and Superior Support"
+msgstr "Snelle en superieure ondersteuning"
+
+#: admin/modules/import/views/main.php:45
+msgid "Row"
+msgstr "Rij"
